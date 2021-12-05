@@ -1,0 +1,25 @@
+/* mg06->p-home */
+.mb1 {margin-bottom: 40px;}
+.p-home {
+  color: #fff;
+  position: relative;
+}
+
+.imgbg {
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background-image: url("/images/bg-svg/bg4.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.imgbg img {
+  width: 100%;
+  display: block;
+  opacity: 0;
+}

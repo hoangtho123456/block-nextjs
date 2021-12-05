@@ -1,0 +1,56 @@
+/* mg65 */
+.mg65 {z-index: 1;}
+.icon1 {font-size: 20px;}
+
+.rowlabel {
+  line-height: 24px;
+  border-top: 1px solid #CFCFCF;
+  padding-top: 10px;
+}
+.rowlabel a {
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+.rowlabel a:hover {color: #FBAF21;}
+
+.title {
+  font-size: 24px;
+  color: #FBAF21;
+}
+
+@media only screen and (max-width:991px) {
+  .row {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .row>* {
+    margin-bottom: 30px;
+  }
+}
+
+.info1 {
+  margin-bottom: 30px;
+  font-size: 28px;
+  line-height: 1.4;
+}
+
+@media only screen and (max-width: 767px) {
+  .info1 {
+    margin-bottom: 30px;
+    font-size: 17px;
+  }
+}
+
+.info1 h1, 
+.info1 h2, 
+.info1 h3, 
+.info1 h4, 
+.info1 h5, 
+.info1 h6 {margin-bottom: 8px;}
+.info1 p:last-child {margin-bottom: 0;}
+
+.info1 img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}

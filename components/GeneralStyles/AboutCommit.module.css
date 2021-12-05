@@ -1,0 +1,67 @@
+.mg13 {position: relative;}
+.mg13:after {background-color: unset;}
+
+.header {
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .mg13 .desc2 {
+    font-size: 24px;
+  }
+}
+
+.functionSlide {
+  background: #F9F7F7;
+}
+@media only screen and (max-width: 767px) {
+  .functionSlide {
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 576px) {
+  .functionSlide .item {
+    margin-right: 8px;
+  }
+}
+
+.functionSlide .item {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media only screen and (max-width: 767px) {
+  .functionSlide .item {
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 576px) {
+  .functionSlide .item:nth-of-type(2n) {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .functionSlide .item .img {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .functionSlide .item .title h1, 
+  .functionSlide .item .title h2, 
+  .functionSlide .item .title h3,
+  .functionSlide .item .title h4,
+  .functionSlide .item .title h5,
+  .functionSlide .item .title h6 {font-size: 20px;}
+}
+
+.mg13-type1 {
+  padding-top: 40px;
+  background: white;
+}
+.mg13-type1 .desc {
+  text-align: center;
+}

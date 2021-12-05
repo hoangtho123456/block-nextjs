@@ -1,0 +1,65 @@
+/*c-carousel1*/
+.c-carousel1 .react-multiple-carousel__arrow {
+  background-color: unset;
+}
+.c-carousel1 .react-multiple-carousel__arrow:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  color: black;
+  font-size: 40px;
+}
+.c-carousel1 .react-multiple-carousel__arrow--left::before{
+  content: "\e942";
+}
+.c-carousel1 .react-multiple-carousel__arrow--right::before{
+  content: "\e955";
+}
+.c-carousel1 .react-multiple-carousel__arrow:hover {
+  background-color: unset;
+}
+.c-carousel1 .react-multiple-carousel__arrow:hover::before {
+  color: #FBAF21;
+}
+
+.c-carousel1 .react-multiple-carousel__arrow--right {right: 0;}
+.c-carousel1 .react-multiple-carousel__arrow--left {left: 0;}
+.c-carousel1--arrows1 .react-multiple-carousel__arrow--right {right: -11px;}
+.c-carousel1--arrows1 .react-multiple-carousel__arrow--left {left: -11px;}
+
+.c-carousel1 .react-multi-carousel-dot button {
+  width: 10px;
+  height: 10px;
+  margin-right: 11px;
+  border: none;
+  background-color: #D3D3D3;
+}
+.c-carousel1 .react-multi-carousel-dot--active button {
+  background: #FBAF21;
+}
+
+/*carousel-2*/
+/* .c-carousel2 .react-multiple-carousel__arrow--left {
+  left: -10px;
+}
+.c-carousel2 .react-multiple-carousel__arrow--right {
+  right: -10px;
+}
+.c-carousel2 .react-multiple-carousel__arrow:hover{
+  background: none;
+  color: #FBAF21;
+}
+.c-carousel2 .react-multiple-carousel__arrow:hover::before{
+  background: none;
+  color: #FBAF21;
+}
+.c-carousel2 .react-multiple-carousel__arrow{
+  background: none;
+}
+.c-carousel2 .react-multiple-carousel__arrow::before{
+  font-size: 35px;
+  color: #000;
+} */

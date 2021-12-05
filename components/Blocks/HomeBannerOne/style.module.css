@@ -1,0 +1,12 @@
+/* p-contact1 */
+.p-home h2 {
+  text-transform: unset;
+  color: #fff;
+}
+
+.box1 {
+  height: 80vh;
+  max-height: 550px;
+  color: #fff;
+  background-color: #31c5c7;
+}

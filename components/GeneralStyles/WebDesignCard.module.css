@@ -1,0 +1,147 @@
+.mg61 {position: relative;}
+
+.item {
+  background-color: #ECECEC;
+  overflow: hidden;
+}
+
+.item_img {
+  width: 50%;
+  text-align: center;
+  position: relative;
+  line-height: 0;
+}
+
+.item_img img {
+  max-width: none;
+  position: relative;
+  margin: 50px;
+  height: 500px;
+}
+
+@media only screen and (min-width:768px) {
+  .item_img img {
+    object-fit: cover;
+    width: 100%;
+    margin: 0;
+  }
+}
+.item_img:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-color: #fff;
+  width: 2000px;
+  content: "";
+}
+
+.item .topinfo .divtext {
+  overflow: hidden;
+}
+
+.item-left .item_img {
+  float: left;
+}
+
+.item-left .item_img:before {
+  right: 0;
+}
+
+.item-left .topinfo .divtext {
+  padding-left: 50px;
+}
+
+.item-right .item_img {
+  float: right;
+  line-height: 0;
+}
+
+.item-right .item_img:before {
+  left: 0;
+}
+
+.item-right .topinfo .divtext {
+  padding-right: 50px;
+}
+
+@media only screen and (max-width: 767px) {
+  .item {
+    padding-bottom: 20px;
+    background-color: unset;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .item_img {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .item_img:before {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .item_img img {
+    float: none;
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .item .topinfo .dl-tb {
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .item .topinfo .divtext {
+    max-width: 550px;
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .item .topinfo .divtext {
+    padding: 40px 15px 0;
+  }
+}
+
+.item .topinfo .divtext h1, 
+.item .topinfo .divtext h2, 
+.item .topinfo .divtext h3, 
+.item .topinfo .divtext h4, 
+.item .topinfo .divtext h5, 
+.item .topinfo .divtext h6 {
+  text-align: left;
+}
+
+@media only screen and (min-width: 768px) {
+  .item .topinfo .divtext h1, 
+  .item .topinfo .divtext h2, 
+  .item .topinfo .divtext h3, 
+  .item .topinfo .divtext h4, 
+  .item .topinfo .divtext h5,
+  .item .topinfo .divtext h6 {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .item-right .topinfo .divtext {
+    margin-left: auto;
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .item-left .topinfo .divtext {
+    margin-right: auto;
+    padding-right: 20px;
+  }
+}

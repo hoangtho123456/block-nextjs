@@ -1,0 +1,146 @@
+/*formcontact*/
+.formcontact {
+  position: relative;
+  background: url(/images/dots.png) no-repeat bottom right;
+  padding: 0 35px 35px 0;
+  background-size: 300px;
+}
+@media only screen and (max-width:991px) {
+  .formcontact {
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .formcontact { padding: 0 25px 25px 0; }  
+}
+  
+.inner {
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 50px 50px;
+}
+@media only screen and (max-width:991px) {
+  .inner {
+    padding: 50px 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .inner { padding: 20px 15px 30px; }
+}
+
+.box1 { margin-bottom: 3px; }
+.box1 .icon {font-size: 50px;}
+.box1 h3 {margin: 0;}
+.nf-form-content{padding: 0 5px;}
+.nf-form-content textarea {font-family: 'UTM Neo Sans', sans-serif;}
+.nf-field-element { position: relative; }
+  
+.nf-field-element select {
+  border: 1px solid #D2D2D2;
+  border-radius: 7px;
+}
+.nf-field-element input:not([type="button"]),
+.nf-form-content .ninja-forms-field { font-size: 14px; }
+.nf-field-element input:not([type="button"]) {
+  height: 34px;
+  width: 100%;
+  padding: 6px 12px;
+  color: #555;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.nf-field-element select {
+  position: relative;
+  height: 34px;
+  width: 100%;
+  padding: 6px 12px;
+  color: rgba(68, 68, 68, .4);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: transparent;
+  appearance: none;
+  z-index: 2;
+}
+  
+.nf-field-element select+div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 34px;
+  width: 100%;
+  border-radius: 4px;
+  z-index: 1;
+  /* transition: all .5s; */
+} 
+.nf-field-element select+div:after {
+  font-family: FontAwesome;
+  content: '\f107';
+  font-size: 20px;
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+  height: 34px;
+  line-height: 35px;
+}
+.nf-field-element textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+  width: 100%;
+}
+
+.nf-field-container { margin-bottom: 20px; }
+@media only screen and (max-width: 767px) {
+  .nf-field-container { margin-bottom: 15px; }
+}
+
+/* .nf-form-content label { display: none; } */
+.nf-form-content textarea { height: 100px; }
+.nf-form-content input[type=button] {
+  position: relative;
+  vertical-align: middle;
+  display: inline-block;
+  text-align: center;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  line-height: 35px;
+  height: 35px;
+  padding: 0 25px;
+  text-transform: uppercase;
+  background-color: #000;
+  border-color: #000;
+  color: #fff;
+  cursor: pointer;
+  -webkit-appearance:default-button;
+}
+@media only screen and (max-width: 767px) {
+  .nf-form-content input[type=button] {font-size: 14px;}
+}
+
+.nf-form-content input[type=button]:hover {
+  background-color: #FBAF21;
+  color: #fff;
+  border-color: #FBAF21;
+}
+
+.title1 {
+  margin-bottom: 9px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #000;
+}
+@media only screen and (max-width: 767px) {
+  .title1 {margin-bottom: 2px;}
+}

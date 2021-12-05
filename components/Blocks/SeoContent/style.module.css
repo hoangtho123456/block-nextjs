@@ -1,0 +1,21 @@
+@media only screen and (max-width: 767px) {
+  .box1 {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .text1 {
+    font-size: 22px;
+  }
+}
+
+.info1 {
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .mg27 [class*="row"] > [class*="col-"]:not(:last-child) {
+    margin-bottom: 40px;
+  }
+}

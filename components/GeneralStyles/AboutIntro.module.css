@@ -1,0 +1,49 @@
+/*mg08*/
+.mg08 {
+	max-width: 754px;
+	margin-left: auto;
+	margin-right: auto;
+}
+  
+.item {
+  position: relative;
+  line-height: 1.7;
+  background-size: 400px;
+}
+  
+.inner p:not(:last-child){
+  margin-bottom: 20px;
+}
+.inner p:last-child { margin-bottom: 0; } 
+.inner {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 2;
+  background-color: #fff;
+  padding: 60px;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 767px) {
+  .inner {
+    padding: 20px;
+  }
+}
+
+.mg08 h1, .mg08 h2, .mg08 h3, .mg08 h4, .mg08 h5, .mg08 h6 {
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 700;
+}
+@media only screen and (min-width: 768px) {
+  .mg08 h1, .mg08 h2, .mg08 h3, .mg08 h4, .mg08 h5, .mg08 h6 {
+    margin-bottom: 40px;
+  }
+}
+  
+@media only screen and (max-width: 767px) {
+  .mg08 h1, .mg08 h2, .mg08 h3, .mg08 h4, .mg08 h5, .mg08 h6 {
+    margin-bottom: 18px;
+    font-size: 25px;
+  }
+}

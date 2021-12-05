@@ -1,0 +1,90 @@
+/* wrap-ss */
+.wrap-ss {
+  text-align: center;
+  font-weight: 300;
+  background-image: url(/images/bg-svg/bg6.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  position: relative;
+  padding-bottom: 180px;
+}
+@media only screen and (min-width: 1200px) {
+  .wrap-ss {
+    padding-bottom: 190px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .wrap-ss {
+    padding-bottom: 0;
+  }
+}
+
+.wrap-ss-bg3 {
+  background-image: url(/images/new-bg/3.jpg);
+}
+
+.wrap-ss-bg4 {
+  background-image: url(/images/new-bg/4.jpg);
+}
+
+
+.mg02 {
+  font-size: 33px;
+  margin: 100px auto 100px;
+}
+@media only screen and (max-width: 767px) {
+  .mg02 {
+    font-size: 23px;
+    margin-top: 50px;
+  }
+}
+
+.text {
+  letter-spacing: 20px;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 767px) {
+  .text {
+    letter-spacing: 5px;
+  }
+}
+.text,
+.text h1,
+.text h2,
+.text h3,
+.text h4,
+.text h5 {
+  font-size: 18px;
+  font-weight: 300;
+  color: #5b6987;
+}
+@media only screen and (min-width: 768px) {
+  .text,
+  .text h1,
+  .text h2,
+  .text h3,
+  .text h4,
+  .text h5 {font-size: 33px;}
+}
+
+
+.title1, 
+.title1 h1, 
+.title1 h2, 
+.title1 h3, 
+.title1 h4, 
+.title1 h5 {
+  font-size: 30px;
+}
+@media only screen and (min-width: 768px){
+  .title1, 
+  .title1 h1, 
+  .title1 h2, 
+  .title1 h3, 
+  .title1 h4, 
+  .title1 h5 {font-size: 50px;}
+}
+.title1 {font-weight: 700;}

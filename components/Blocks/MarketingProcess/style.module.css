@@ -1,0 +1,20 @@
+/* mg57 */
+.item ul {
+  padding-left: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .item ul {
+    padding-left: 15px;
+  }
+}
+
+.item .info1 {
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .row > [class*="col-"]:not(:last-child) {
+    margin-bottom: 25px;
+  }
+}

@@ -1,0 +1,145 @@
+/* .mg62 textarea {
+  height: 35px;
+  padding: 7px 15px;
+} */
+
+.row-1 {
+  text-align: center;
+}
+
+.row-1 .width {
+  width: 30%;
+  display: inline-block;
+}
+
+.row-1 .item {
+  max-width: 210px;
+  margin: 0 auto 30px;
+  position: relative;
+  /*box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);*/
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  border-radius: 100%;
+}
+
+.row-1 .text {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.row-1 .title {
+  font-size: 18px;
+  /*hiddenfont-family: "Dosis", sans-serif;*/
+  font-weight: 700;
+}
+
+.row-2 .img {
+  padding-top: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .header {
+    margin-bottom: 30px;
+    padding: 0 15px;
+  }
+}
+
+.acordion .tab_icon1 {
+  font-size: 27px;
+  color: #FBAF21;
+  position: absolute;
+  left: 0;
+  top: 6px;
+}
+
+.row-1 .item {
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .row-1 .item {
+    margin-bottom: 0;
+  }
+}
+
+.row-1 .item:hover, 
+.row-1 .item:not(.btn):focus {
+  color: #FBAF21;
+  text-decoration: none;
+}
+
+.row-1 .item .title h1,
+.row-1 .item .title h2,
+.row-1 .item .title h3,
+.row-1 .item .title h4,
+.row-1 .item .title h5,
+.row-1 .item .title h6 {
+  margin-bottom: 0;
+  font-size: 18px;
+}
+.title2 h1,
+.title2 h2,
+.title2 h3,
+.title2 h4,
+.title2 h5,
+.title2 h6 {
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 576px) {
+  .row-1 .width {
+    width: 49%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .row-1 .width:nth-of-type(2n+1) {
+    margin-right: 5px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .row-1 .width:last-child {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .row-2 {
+    padding: 0 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .slide1-sp {
+    padding: 16px 0;
+    overflow-x: scroll;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .slide1-sp .row-1 {
+    width: 1190px;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .slide1-sp .row-1 .width {
+    width: 230px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .mg62 > .container {
+    padding: 0;
+  }
+}

@@ -1,0 +1,14 @@
+/*mg07*/
+.title1 {
+  font-size: 18px; 
+  font-weight: 700;
+}
+.item {text-align: center;}
+.timer {
+  font-size: 80px;
+  color: #FBAF21;
+  font-weight: 700;
+}
+@media only screen and (max-width: 767px) {
+  .timer {font-size: 50px;}
+}
