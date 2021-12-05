@@ -1,0 +1,63 @@
+.mg19 {
+  position: relative;
+}
+
+.row-1 {
+  /*margin-bottom: 80px;hidden*/
+  margin-bottom: 40px;
+}
+
+.dl-tb+.dl-tb {
+  margin-top: 15px;
+}
+
+.functionSlide {
+  margin-bottom: 0;
+}
+
+.functionSlide .item .desc {
+  text-align: center;
+}
+
+.functionSlide .item .title h1, 
+.functionSlide .item .title h2, 
+.functionSlide .item .title h3, 
+.functionSlide .item .title h4, 
+.functionSlide .item .title h5, 
+.functionSlide .item .title h6 {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 767px) {
+  .dl-tb > .icon {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .dl-tb > .text-sp {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .row-1 [class^=col-]:nth-of-type(2) .dl-tb {
+    display: inline-block;
+    width: 48%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .row-1 {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.row-1 h1, 
+.row-1 h2, 
+.row-1 h3 {
+  font-size: 35px;
+}

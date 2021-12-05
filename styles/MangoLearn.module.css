@@ -1,0 +1,232 @@
+.container-fluid {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.blog {
+  font-family: 'UTM Neo Sans', sans-serif;
+  background-color: white;
+}
+
+.blog .blog__home-header {
+  padding: 3em 0;
+}
+.blog__home-header {
+  background-size: cover;
+  background-position: right center;
+  color: #fff;
+}
+
+.blog__home-header .divtext {
+  max-width: 58.33333%;
+}
+@media only screen and (max-width: 767px){
+  .blog__home-header .divtext {
+    max-width: 100%;
+  }
+}
+
+.blog__home-header .section-heading__subhead {
+  font-size: 1.5em;
+  margin-bottom: 0.8333333333em;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media only screen and (max-width: 767px){
+  .p-box1 {overflow: hidden;}
+}
+
+.background-lowlight {
+  position: relative;
+}
+.section-heading__title1 {
+  font-size: 2.625em;
+  margin-bottom: 0.25em;
+  color: #fff;
+}
+
+/*post*/
+.blog-post {
+  margin-bottom: 30px;
+}
+
+.blog-post .article__meta--primary {
+  font-weight: 700;
+  font-size: 0.875em;
+  color: #FBAF21;
+}
+
+.blog-post .post-thumbnail {
+  margin-bottom: 1em;
+}
+
+.blog-post .meta .sticky-post,
+.blog-post .meta time.updated {
+  display: none;
+}
+
+.blog-post .meta .posted-on i {
+  margin-right: 5px;
+}
+
+.blog-post .meta .byline .author.vcard i {
+  display: none;
+}
+
+.blog-post .meta > span {
+  position: relative;
+  margin-right: 16px;
+  display: inline-block;
+}
+
+.blog-post .meta > span:not(:last-child):after {
+  content: '';
+  position: absolute;
+  right: -16px;
+  top: 50%;
+  margin: -1px 5px 0;
+  width: 4px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #d2d5d9;
+}
+
+.blog-post .entry-title {
+  margin-bottom: 0;
+}
+.blog-post .title-normal {font-weight: 500;}
+.blog-post .entry-title a {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.blog-post .byline .icon-user{
+  margin-right: 6px;
+}
+
+.meta {
+  font-size: 14px;
+  color: #9B9B9B;
+  margin-bottom: 10px;
+}
+
+.lwptoc {margin: 16px 0 32px;}
+.lwptoc .lwptoc_i {
+  background-color: #f0f1f2;
+}
+.lwptoc-light .lwptoc_i {
+  color: #333;
+}
+.long-form-content .lwptoc_i {
+  padding: 32px;
+}
+.lwptoc_i {
+  /* padding: 14px 18px 18px; */
+  text-align: left;
+}
+.lwptoc_header {
+  color: #000000;
+}
+.long-form-content .lwptoc_i .lwptoc_header {
+  margin-bottom: 1.47em;
+}
+.long-form-content .lwptoc_i .lwptoc_item a:not(:hover) {color:#000}
+.long-form-content .lwptoc_i .lwptoc_items a {
+  font-weight: bold;
+  display: list-item;
+  margin-left: 20px;
+}
+
+.author-bio {
+  border-top: 1px solid #d2d5d9;
+  padding: 32px 0;
+  clear: both;
+  overflow: hidden;
+}
+
+.author-bio .avatar {
+  border-radius: 100%;
+  border-radius: 50%;
+  border: 2px solid #212326;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  float: left;
+  margin-right: 30px;
+}
+
+.author-bio h3 {
+  color: #212326;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.author-bio .description {
+  color: #6b7177;
+}
+
+.article__image--featured {
+  margin-bottom: 3.75em;
+}
+@media only screen and (max-width: 767px) {
+  .article__image--featured {
+    margin-bottom: 25px;
+  }
+}
+
+/* .article__content {display: flow-root;} */
+.article__content p {text-align: justify;}
+
+@media screen and (min-width: 67.5em) {
+  .article__content {
+    padding-left: 8.3333333333%;
+    padding-right: 8.3333333333%;
+  }
+}
+
+.searchform {
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.searchform .input {
+  width: 100%;
+  border-radius: 19px;
+  padding-left: 40px;
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid #D3D3D3;
+}
+
+.searchform .input + .btn {
+  position: absolute;
+  left: 0;
+  width: 40px;
+  padding: 0;
+  height: 40px;
+  width: 40px;
+  background: none;
+  color: #FBAF21;
+  line-height: 40px;
+  font-weight: bold;
+  border: none;
+}
+
+/* .blog-post.sticky {
+  margin-bottom: 2.375em;
+  overflow: hidden;
+}
+
+.blog-post.sticky .post-thumbnail.tRes_70::before {
+  padding-top: 50%;
+}
+
+.widget-area .widget ul {
+  list-style: none;
+} */
+

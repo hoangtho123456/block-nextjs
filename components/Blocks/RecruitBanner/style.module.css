@@ -1,0 +1,120 @@
+.mg48 {
+  background-position: top center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.bgimg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-height: 1200px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.row-1 {
+  color: #fff;
+}
+
+.row-1 .xstitle {
+  margin-bottom: 10px;
+}
+
+.row-2 {
+  color: #fff;
+}
+
+.row-1 {
+  padding-bottom: 60px;
+}
+
+@media only screen and (max-width: 767px) {
+  .row-1 {
+    padding-bottom: 40px;
+  }
+}
+
+.row-1 .xstitle {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.row-1 .xstitle h1, 
+.row-1 .xstitle h2, 
+.row-1 .xstitle h3, 
+.row-1 .xstitle h4, 
+.row-1 .xstitle h5, 
+.row-1 .xstitle h6 {
+  margin-bottom: 0;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.xldesc {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.xldesc h1, 
+.xldesc h2, 
+.xldesc h3, 
+.xldesc h4, 
+.xldesc h5, 
+.xldesc h6 {
+  margin-bottom: 0;
+  color: #fff;
+  font-weight: 400;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+@media only screen and (min-width: 768px) {
+  .xldesc h1, 
+  .xldesc h2, 
+  .xldesc h3, 
+  .xldesc h4, 
+  .xldesc h5, 
+  .xldesc h6 {font-size: 55px;}
+}
+
+.row-2 {
+  padding-bottom: 100px;
+}
+
+@media only screen and (max-width: 767px) {
+  .row-2 {
+    padding-bottom: 50px;
+  }
+}
+
+.mg48_box1 {position: relative;}
+
+.mg48_box1-pt1 {padding-top: 80px;}
+
+@media only screen and (max-width: 767px) {
+  .mg48_box1-pt1 {
+    padding-top: 40px;
+  }
+}
+
+.mg48_box1 .bgimg img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: bottom;
+     object-position: bottom;
+}
+
+.mg48_box1 .box1 [class*=col-] {
+  text-align: justify;
+}
+

@@ -1,0 +1,123 @@
+.list .item {
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+.list .item {
+  border: 1px solid #D3D3D3;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.list .item img {
+  -o-object-fit: contain;
+  object-fit: contain;
+  max-width: 80%;
+  max-height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+}
+
+.list .item:hover {
+  background-color: #fff;
+  border-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.mg42>.item .topinfo {
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.mg42>.item .img {
+  max-width: 300px;
+}
+
+.mg42>.item .number {
+  font-size: 60px;
+  position: relative;
+  color: #FBAF21;
+  font-weight: 700;
+}
+
+.mg42>.item .divtext {
+  overflow: hidden;
+}
+
+.mg42>.item-left .img {
+  float: left;
+  margin-right: 40px;
+}
+
+.mg42>.item-right .img {
+  float: right;
+  margin-left: 40px;
+}
+
+.mg42>.item-right .divtext {
+  text-align: right;
+}
+
+/* .mg42 .owl-carousel .owl-dots {
+  position: relative;
+  padding-top: 20px;
+} */
+
+@media only screen and (min-width: 768px) {
+  .mg42 > .item .topinfo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .mg42 > .item .img {
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .mg42 > .item .divtext {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .mg42 > .item-left .img,
+  .mg42 > .item-right .img {
+    float: none;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .mg42 > .item-left .divtext,
+  .mg42 > .item-right .divtext {
+    text-align: justify;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .mg42 > .item-right .topinfo {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+}
+

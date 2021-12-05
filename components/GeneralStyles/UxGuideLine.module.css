@@ -1,0 +1,106 @@
+.mg22 {
+  position: relative;
+  padding-bottom: 10px;
+  /*padding-bottom: 50px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#260046), to(transparent)), -webkit-gradient(linear, right top, left top, from(#1CB5E0), to(transparent)), url("/images/bg-svg/05-01.svg");
+  background-image: -webkit-linear-gradient(left, #260046, transparent), -webkit-linear-gradient(right, #1CB5E0, transparent), url("/images/bg-svg/05-01.svg");
+  background-image: -o-linear-gradient(left, #260046, transparent), -o-linear-gradient(right, #1CB5E0, transparent), url("/images/bg-svg/05-01.svg");
+  background-image: linear-gradient(to right, #260046, transparent), linear-gradient(to left, #1CB5E0, transparent), url("/images/bg-svg/05-01.svg");*/
+  background-image: url("/images/bg-svg/bg3.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.item {
+  margin-bottom: 30px;
+  padding: 30px;
+}
+
+.mg22>.imgbg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 212px;
+  background-color: #fff;
+}
+
+.mg22>.imgbg img {
+  position: absolute;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  top: 0;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  .item {
+    text-align: left;
+  }
+}
+
+.item h1, 
+.item h2, 
+.item h3, 
+.item h4, 
+.item h5, 
+.item h6 {
+  text-align: left;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .item h1, 
+  .item h2, 
+  .item h3, 
+  .item h4, 
+  .item h5, 
+  .item h6 {text-align: center;}
+}
+
+.dl-tb {margin-bottom: 15px;}
+@media only screen and (max-width: 767px) {
+  .dl-tb .item_icon {
+    margin: 0 auto;
+    font-size: 50px;
+  }
+}
+
+.item_inner ul {
+  padding: 0 20px;
+}
+
+.box-title h1,
+.box-title h2,
+.box-title h3,
+.box-title h4,
+.box-title h5,
+.box-title h6,
+.box-title p{margin-bottom: 0;}
+
+@media only screen and (min-width: 768px) {
+  .row .item {
+    height: 90%;
+  }
+}
+
+.mg22-bg3 {
+  background-image: url(/images/new-bg/3.jpg);
+}
+
+.mg22-bg4 {
+  background-image: url(/images/new-bg/4.jpg);
+}
+
+.mg22-bg5 {
+  background-image: url(/images/new-bg/5.jpg);
+}
+
+.mg22-nobg {
+  background-image: none;
+}

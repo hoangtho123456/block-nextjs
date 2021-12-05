@@ -1,0 +1,70 @@
+.table thead {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.table thead th {
+  padding: 12px 8px;
+  text-align: left;
+}
+
+.table thead th:last-child {
+  text-align: center;
+}
+
+.table thead tr:hover {
+  background: unset;
+  color: initial;
+}
+
+.table tr > .td3 span {
+  max-width: 800px;
+}
+
+@media only screen and (max-width: 767px) {
+  .table tr > .td3 span {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+}
+
+.table .td1 {width: 200px;}
+@media only screen and (max-width: 767px) {
+  .table .td1 {width: 140px;}
+}
+
+.table .td2 {min-width: 90px;}
+@media only screen and (min-width: 768px) {
+  .table .td2 {min-width: 100px;}
+}
+
+@media only screen and (max-width: 767px) {
+  .table .td2 {
+    min-width: 50px;
+  }
+}
+
+/* .table .td3 .more-link {
+  display: none;
+} */
+
+.table tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.09);
+  color: #FBAF21;
+}
+
+.table a:hover {
+  color: #FBAF21;
+}
+
+@media only screen and (max-width: 767px) {
+  .box {overflow-x: scroll;}
+}
+
+@media only screen and (max-width: 767px) {
+  .box .table {
+    min-width: 600px;
+  }
+}

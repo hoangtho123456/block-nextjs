@@ -1,0 +1,116 @@
+/*banner*/
+.mg63 {
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+  color: #fff;
+}
+
+.divtext {
+  text-align: left;
+  width: 400px;
+}
+
+.mg63 .desc {color: #fff;}
+@media only screen and (max-width: 767px) {
+  .mg63 .desc {
+    font-size: 18px;
+  }
+}
+
+.imgbg {
+  background-image: url("/images/bg-svg/06-01.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  position: relative;
+}
+
+.imgbg img {
+  opacity: 0;
+}
+
+@media only screen and (min-width: 992px) {
+  .mg63 {
+    padding: 110px 0;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .mg63 {
+    padding-top: 90px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .mg63 {
+    padding: 55px 0 45px;
+  }
+}
+
+.mg63 h1, .mg63 h2, .mg63 h3 {
+  font-weight: 700;
+  color: white;
+}
+
+@media only screen and (max-width: 767px) {
+  .imgbg {
+    background-position: center;
+  }
+}
+
+.title {font-weight: 700;}
+.imgbg-1 {
+  background-image: url(/images/bg-svg/bg5.jpg);
+}
+
+.bg-1 {
+  background-image: url(/images/new-bg/1.jpg);
+}
+.bg-3 {
+  background-image: url(/images/new-bg/3.jpg);
+}
+.bg-4 {
+  background-image: url(/images/new-bg/4.jpg);
+}
+.bg-5 {
+  background-image: url(/images/new-bg/5.jpg);
+}
+
+.mg63-nobg {
+  color: #000;
+}
+
+@media only screen and (min-width: 992px) {
+  .mg63-nobg {
+    padding: 20px 0;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .mg63-nobg {
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .mg63-nobg {
+    padding: 10px 0;
+  }
+}
+
+.mg63-nobg .desc {
+  color: #000;
+}
+
+.mg63-bg4 .title,
+.mg63-bg4 .title h1,
+.mg63-bg4 .title h2,
+.mg63-bg4 .title h3,
+.mg63-bg4 .title h4,
+.mg63-bg4 .title h5,
+.mg63-bg4 .title h6,
+.mg63-bg4 .desc {
+  color: #575757;
+}

@@ -1,0 +1,39 @@
+stages:
+  - build
+  - deploy
+
+docker-build:
+  # Use the official docker image.
+  image: registry.gitlab.com/mangoads/swarm-deploy-dind:v1.0
+  stage: build
+  only:
+    - master
+  variables:
+    DOCKER_HOST: unix:///var/run/docker.sock
+    DOCKER_TLS_CERTDIR: ""
+    DOCKER_DRIVER: overlay2
+  before_script:
+    - source active_env
+    - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
+  script:
+    - echo "$CI_COMMIT_SHA" > public/version.txt
+    - docker build -t $IMAGE_URI .
+    - docker push $IMAGE_URI
+
+deploy:
+  # Use the official docker image.
+  image: registry.gitlab.com/mangoads/swarm-deploy-dind:v1.0
+  stage: deploy
+  only:
+    - master
+  before_script:
+    - source active_env
+    - source active_machine
+    - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
+  artifacts:
+    paths:
+      - docker-compose.prod.yml
+  script:
+    - sed -ibk 's/:latest/'"$TAG_NAME"'/g' docker-compose.prod.yml
+    - docker pull $IMAGE_URI
+    - docker stack deploy -c docker-compose.prod.yml --with-registry-auth web-client

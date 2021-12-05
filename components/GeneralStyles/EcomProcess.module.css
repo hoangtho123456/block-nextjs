@@ -1,0 +1,61 @@
+.mg18{position: relative;}
+@media only screen and (min-width: 768px) {
+  .row {
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width:992px) {
+  .img img {
+    float: right;
+  }
+}
+
+.rowlabel .title {
+  font-size: 60px;
+  position: relative;
+  top: -20px;
+  color: #FBAF21;
+}
+
+@media only screen and (max-width: 767px) {
+  .rowlabel:not(.row) .item + .item {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .rowlabel .item .title {
+    top: -15px;
+    width: 65px;
+    font-size: 40px;
+  }
+}
+
+.rowlabel .item .text {text-align: justify;}
+.rowlabel .item .text h1, 
+.rowlabel .item .text h2, 
+.rowlabel .item .text h3, 
+.rowlabel .item .text h4, 
+.rowlabel .item .text h5, 
+.rowlabel .item .text h6 {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+@media only screen and (max-width: 767px) {
+  .rowlabel .item .text h1, 
+  .rowlabel .item .text h2, 
+  .rowlabel .item .text h3, 
+  .rowlabel .item .text h4, 
+  .rowlabel .item .text h5, 
+  .rowlabel .item .text h6 {
+    margin-bottom: 12px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .col-1 {
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,77 @@
+/* mg10 */
+.col-1 .item {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 50px;
+  position: relative;
+  background-color: #fff;
+}
+@media only screen and (max-width: 767px) {
+  .col-1 {margin-bottom: 30px;}
+}
+
+@media only screen and (max-width: 767px) {
+  .col-1 .item {padding: 40px 20px 30px;}
+}
+.col-1 .item > .img {margin-bottom: 40px;}
+
+.col-2 .item {margin-top: 35px;}
+
+.col-2 > .title h1, 
+.col-2 > .title h3, 
+.col-2 > .title h2, 
+.col-2 > .title h4, 
+.col-2 > .title h5, 
+.col-2 > .title h6 {margin-bottom: 0;}
+@media only screen and (max-width: 767px) {
+  .col-2>.title {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .col-2 .item {margin-top: 30px;}
+}
+
+.item ul {padding-left: 22px;}
+
+.info {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 767px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+}
+
+.info i {
+  font-size: 40px;
+  color: #FBAF21;
+}
+
+.info h1, 
+.info h2, 
+.info h3, 
+.info h4, 
+.info h5, 
+.info h6 {
+  margin-bottom: 10px;
+}
+.img {text-align: center;}
+.info .title {
+  padding-left: 15px;
+  text-align: left;
+}
+@media only screen and (max-width: 767px) {
+  .info .title {
+    padding-left: 0;
+    text-align: center;
+  }
+}
