@@ -17,7 +17,7 @@ const PayClickService = ({
         <div className={`${styles["slide1-sp"]} th-slider1-js`}>
           <div className={`${styles["row-1"]} inner1-js`}>
             <div className={`${styles.width} item1-js`}>
-              <a href="javascript:void(0)" className={`tRes ${styles.item}`}>
+              <a href="#" className={`tRes ${styles.item}`}>
                 <div className={styles.text}>
                   <div className={`icm50 ${styles.img}`}>
                     <i className="icon-t7" />
@@ -32,7 +32,7 @@ const PayClickService = ({
               </a>
             </div>
             <div className={`${styles.width} item1-js`}>
-              <a href="javascript:void(0)" className={`tRes ${styles.item}`}>
+              <a href="#" className={`tRes ${styles.item}`}>
                 <div className={styles.text}>
                   <div className={`icm50 ${styles.img}`}>
                     <i className="icon-t42" />
@@ -47,7 +47,7 @@ const PayClickService = ({
               </a>
             </div>
             <div className={`${styles.width} item1-js`}>
-              <a href="javascript:void(0)" className={`tRes ${styles.item}`}>
+              <a href="#" className={`tRes ${styles.item}`}>
                 <div className={styles.text}>
                   <div className={`icm50 ${styles.img}`}>
                     <i className="icon-t56" />
@@ -59,7 +59,7 @@ const PayClickService = ({
               </a>
             </div>
             <div className={`${styles.width} item1-js`}>
-              <a href="javascript:void(0)" className={`tRes ${styles.item}`}>
+              <a href="#" className={`tRes ${styles.item}`}>
                 <div className={styles.text}>
                   <div className={`icm50 ${styles.img}`}>
                     <i className="icon-t41" />
@@ -71,7 +71,7 @@ const PayClickService = ({
               </a>
             </div>
             <div className={`${styles.width} item1-js`}>
-              <a href="javascript:void(0)" className={`tRes ${styles.item}`}>
+              <a href="#" className={`tRes ${styles.item}`}>
                 <div className={styles.text}>
                   <div className={`icm50 ${styles.img}`}>
                     <i className="icon-t55" />

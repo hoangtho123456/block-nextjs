@@ -1371,7 +1371,7 @@ figure figcaption {
 }
 
 .menu-btn:hover {
-  color: #FBAF21;
+  color: #1ddb5c;
 }
 
 .menu-btn.show {
@@ -1612,7 +1612,7 @@ body.showMenu .menu-btn.x:before {
   font-weight: 400;
   font-size: 16px;
   color: #fff;
-  background-color: #FBAF21;
+  background-color: #1ddb5c;
   border-radius: 5px;
   border: none;
   line-height: 35px;
@@ -1645,8 +1645,8 @@ body.showMenu .menu-btn.x:before {
 
 .outline.btn:active,.outline.btn:hover {
   background-color: transparent;
-  border-color: #FBAF21;
-  color: #FBAF21;
+  border-color: #1ddb5c;
+  color: #1ddb5c;
 }
 
 .white.btn {
@@ -1656,9 +1656,9 @@ body.showMenu .menu-btn.x:before {
 }
 
 .white.btn:active,.white.btn:hover {
-  background-color: #FBAF21;
+  background-color: #1ddb5c;
   color: #fff;
-  border-color: #FBAF21;
+  border-color: #1ddb5c;
 }
 
 /* .black.btn {
@@ -1711,7 +1711,7 @@ body.showMenu .menu-btn.x:before {
 }
 
 .input:focus {
-  border: 1px solid #FBAF21;
+  border: 1px solid #1ddb5c;
 }
 
 select {
@@ -1765,7 +1765,7 @@ ul.page-numbers .page-numbers.next i,ul.page-numbers .page-numbers.prev i {
 }
 
 ul.page-numbers .page-numbers:hover {
-  color: #FBAF21;
+  color: #1ddb5c;
 }
 
 ul.page-numbers .page-numbers.current {
@@ -1845,7 +1845,7 @@ ul.page-numbers .page-numbers.current {
 }
 
 .divmodal .contentModal .close-modal:hover {
-  color: #FBAF21;
+  color: #1ddb5c;
 }
 
 .divmodal .innerModal {
@@ -1902,7 +1902,7 @@ ul.page-numbers .page-numbers.current {
 }
 
 .cl1 {
-  color: #FBAF21;
+  color: #1ddb5c;
 }
 
 .cl2 {
@@ -1926,7 +1926,7 @@ ul.page-numbers .page-numbers.current {
 }
 
 .bg1 {
-  background-color: #FBAF21;
+  background-color: #1ddb5c;
 }
 
 .bg2 {
@@ -1950,7 +1950,7 @@ ul.page-numbers .page-numbers.current {
 }
 
 .bd1 {
-  border-color: #FBAF21;
+  border-color: #1ddb5c;
 }
 
 .bd2 {
@@ -2717,7 +2717,7 @@ textarea.input {
 }
 
 .entry-content a:not(.btn) {
-  color: #FBAF21;
+  color: #1ddb5c;
 }
 
 .ss-radius-bottom {
@@ -2920,7 +2920,7 @@ img.wfull {
   position: absolute;
   left: 30px;
   font-size: 26px;
-  color: #FBAF21;
+  color: #1ddb5c;
   position: absolute;
   top: 50%;
   -ms-transform: translateY(-50%);
@@ -2939,7 +2939,7 @@ img.wfull {
 .dl-table>.icon {
   width: 60px;
   font-size: 30px;
-  color: #FBAF21;
+  color: #1ddb5c;
 }
 
 .page-desc {
@@ -2991,7 +2991,7 @@ img.wfull {
   font-family: 'icomoon'!important;
   content: "\e91b";
   font-size: 30px;
-  color: #FBAF21;
+  color: #1ddb5c;
   position: absolute;
   left: 0;
   top: 0;
@@ -3048,7 +3048,7 @@ img.wfull {
 
 .icm50 {
   font-size: 50px;
-  color: #FBAF21;
+  color: #1ddb5c;
   line-height: normal;
 }
 
@@ -3080,7 +3080,7 @@ img.wfull {
 
 .mg04 .item .img i {
   font-size: 40px;
-  color: #FBAF21;
+  color: #1ddb5c;
 }
 
 .mg04 .item>.inner {
@@ -3101,7 +3101,7 @@ img.wfull {
 
 .mg05 .item .img i {
   font-size: 40px;
-  color: #FBAF21;
+  color: #1ddb5c;
   display: inline-block;
 }
 
@@ -3125,7 +3125,7 @@ img.wfull {
 }
 
 .mg05 .item:hover .btn {
-  background-color: #FBAF21;
+  background-color: #1ddb5c;
 }
 
 .mg07 .item {
@@ -3134,7 +3134,7 @@ img.wfull {
 
 .mg07 .item .timer {
   font-size: 80px;
-  color: #FBAF21;
+  color: #1ddb5c;
   font-weight: 700;
 }
 
@@ -3208,16 +3208,16 @@ img.wfull {
 }
 
 .mg09 .timeline .item.active .date {
-  background-color: #FBAF21;
+  background-color: #1ddb5c;
   color: #fff;
 }
 
 .mg09 .timeline .item.active .date:after {
-  border-left-color: #FBAF21;
+  border-left-color: #1ddb5c;
 }
 
 .mg09 .timeline .item.active:after {
-  background-color: #FBAF21;
+  background-color: #1ddb5c;
 }
 
 .mg11 .item {
@@ -3247,7 +3247,7 @@ img.wfull {
 }
 
 .mg11 .item .desc {
-  background-color: #FBAF21;
+  background-color: #1ddb5c;
   border-radius: 10px;
   position: relative;
   padding: 15px;
@@ -3263,7 +3263,7 @@ img.wfull {
   height: 0;
   border-left: 10px solid transparent!important;
   border-right: 10px solid transparent!important;
-  border-bottom: 10px solid #FBAF21;
+  border-bottom: 10px solid #1ddb5c;
   position: absolute;
   top: 0;
   left: 50px;
@@ -3314,7 +3314,7 @@ img.wfull {
 
 .functionSlide .item .img {
   font-size: 45px;
-  color: #FBAF21;
+  color: #1ddb5c;
   margin-bottom: 20px;
 }
 
@@ -3341,7 +3341,7 @@ img.wfull {
   color: #9B9B9B;
 }
 .functionSlide .item .readmore:hover {
-  color: #FBAF21;
+  color: #1ddb5c;
 }
 
 .functionSlide .item:hover {
@@ -3490,7 +3490,7 @@ img.wfull {
 }
 
 .mg30 .section-header .highlight {
-  color: #FBAF21;
+  color: #1ddb5c;
   font-size: 55px;
   font-weight: 700;
 }
@@ -3619,8 +3619,8 @@ mg31,mg311?when use???
 }
 
 .mg44 .btn:hover {
-  background-color: #FBAF21;
-  border-color: #FBAF21;
+  background-color: #1ddb5c;
+  border-color: #1ddb5c;
 }
 
 .mg45 {
@@ -3749,7 +3749,7 @@ mg31,mg311?when use???
 
 .table-hover tr:hover {
   background-color: #000;
-  color: #FBAF21;
+  color: #1ddb5c;
 }
 
 .list-faq {
@@ -3782,7 +3782,7 @@ mg31,mg311?when use???
 }
 
 .sidebar .faq-category li.active>a {
-  color: #FBAF21;
+  color: #1ddb5c;
 }
 
 .sidebar .faq-category>li>a {
@@ -3917,11 +3917,11 @@ mg31,mg311?when use???
 }
 
 .blog-detail .entry-content .social a:hover {
-  border-color: #FBAF21;
+  border-color: #1ddb5c;
 }
 
 .blog-detail .entry-content .social a:hover i {
-  color: #FBAF21;
+  color: #1ddb5c;
 }
 
 .pt-10 {
@@ -4041,7 +4041,7 @@ mg31,mg311?when use???
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
   right: 10px;
-  color: #FBAF21;
+  color: #1ddb5c;
 }
 
 .acordion>.tab>.tab-title .triangle i {

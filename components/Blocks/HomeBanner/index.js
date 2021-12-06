@@ -7,14 +7,14 @@ const Banner = ({
   return (
     <div className={`l-section ${classSpacing}`}>
       <div className={`l-subsection with_parallax ${styles["banner1"]}`} 
-        style={{backgroundImage: 'url(/images/new-bg/header-mangoads.jpeg)'}}>
+        style={{backgroundImage: 'url(/images/new-bg/banner.jpg)'}}>
         <div className={`l-subsection-h`}>
           <div className={`l-subsection-hh g-html i-cf`}>
             <div className={`${styles['title1']}`}>
-              Mango<span className='highlight'>Ads</span>
+              Banner <span className='highlight'>Test</span>
             </div>
             <div className={`${styles.title2}`}>
-              Your business solutions destination
+              What is Lorem Ipsum?
             </div>
           </div>
         </div>
