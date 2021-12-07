@@ -9,10 +9,11 @@ const About = ({
     <div className={`${styles["mg46"]} ${classSpacing}`}>
       <div className="container">
         <div className={`section-header ${styles["box1"]}`}>
-          <div><h2>Về MangoAds</h2></div>
+          <div><h2>Lorem Ipsum</h2></div>
           <div className={`desc2 ${styles["text1"]}`}>
-            Chúng tôi đề xuất các giải pháp công nghệ tốt nhất 
-            để mang lại giá trị cho khách hàng.
+            "Neque porro quisquam est qui dolorem ipsum 
+            quia dolor sit amet, consectetur, 
+            adipisci velit..."
           </div>
         </div>
 
@@ -23,13 +24,17 @@ const About = ({
                 <i className={`icm50 icon-t11`}/>
               </p>
               <section className={styles["sec1"]}>
-                <h3>Sứ mệnh của chúng tôi</h3>
+                <h3>Lorem Ipsum</h3>
               </section>
               <p className="text-justify">
-                Với sứ mệnh đóng góp vào sự phát triển của thị trường số 
-                Việt Nam, MangoAds là cầu nối giúp các thương hiệu 
-                nội địa vươn ra thế giới và hỗ trợ các thương hiệu 
-                quốc tế thâm nhập vào thị trường Việt Nam.
+                It is a long established fact that a reader 
+                will be distracted by the readable content 
+                of a page when looking at its layout. 
+                The point of using Lorem Ipsum is 
+                that it has a more-or-less normal 
+                distribution of letters, as opposed to 
+                using 'Content here, content here', 
+                making it look like readable English.
               </p>
             </div>
           </div>
@@ -40,12 +45,12 @@ const About = ({
                 <i className={`icm50 icon-t42`}/>
               </p>
               <section className={styles["sec1"]}>
-                <h3>Chất lượng dịch vụ</h3>
+                <h3>Lorem Ipsum</h3>
               </section>
               <p className="text-justify">
-                MangoAds thực hiện dự án theo hệ thống chuẩn mực của 
-                thế giới trong lĩnh vực digital marketing để đảm bảo 
-                cung cấp cho khách hàng các sản phẩm, dịch vụ chất lượng.
+                Various versions have evolved over the years, 
+                sometimes by accident, sometimes on 
+                purpose (injected humour and the like).
               </p>
             </div>
           </div>

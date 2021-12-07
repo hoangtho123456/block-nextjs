@@ -7,24 +7,24 @@ const Work = ({
 }) => {
   const arr = [{
     icon: 'icon-t32',
-    title: 'DỊCH VỤ HIGH END',
-    text: 'Được định vị là dịch vụ High-end, chúng tôi cung cấp cho doanh nghiệp đối tác các sản phẩm số, giải pháp chuẩn mực giúp doanh nghiệp Việt Nam vươn tầm thế giới và là cầu nối để các doanh nghiệp thế giới tiếp cận thị trường Việt Nam một cách hiệu suất.'
+    title: 'Where does it come from?',
+    text: 'Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.'
   },{
     icon: 'icon-t3',
-    title: 'CHUYÊN GIA',
-    text: 'Với đội ngũ designer và developer chuyên nghiệp, nhiều năm kinh nghiệm, MangoAds sẽ mang đến cho khách hàng những sản phẩm hoàn thiện, chuyên nghiệp nhất. Chúng tôi luôn trong tư thế sẵn sàng hỗ trợ giải quyết các vấn đề của khách hàng.'
+    title: 'Where can I get some?',
+    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
   },{
     icon: 'icon-t26',
-    title: 'SỰ HÀI LÒNG',
-    text: 'Đội ngũ MangoAds luôn nỗ lực hết mình để hoàn thiện sản phẩm, mang đến sự chỉn chu trong từng chi tiết dù khó khăn hay lợi ích bị ảnh hưởng. Cam kết về chất lượng dịch vụ và mức độ hài lòng luôn là tôn chỉ hàng đầu của doanh nghiệp.'
+    title: 'Where does it come from?',
+    text: 'It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
   }];
   return (
     <div className={`${styles.mg27} ${classSpacing}`}>
       <div className="container">
         <div className={`section-header ${styles.box1}`}>
-          <h2>Chúng tôi làm gì?</h2>
+          <h2>Lorem Ipsum</h2>
           <div className={`desc2 ${styles.text1}`}>
-            Các giá trị cốt lõi của MangoAds
+            Where does it come from?
           </div>
         </div>
 

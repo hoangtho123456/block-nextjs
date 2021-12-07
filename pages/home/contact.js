@@ -1,5 +1,5 @@
 import Contact from '../../components/Blocks/HomeContact/';
-export default function () {
+export default function Home() {
   return (
     <Contact/>
   );

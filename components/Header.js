@@ -303,7 +303,7 @@ const MENU = [{
 export default function Layout() {
   const [isChangeRouter, setIsChangeRouter] = useState(false);
   const router = useRouter();
-  useEffect(async () => {
+  useEffect(() => {
     if (typeof window != undefined) {
       const menu = document.getElementById("menu-custom");
       if (menu.style.display == "block") {

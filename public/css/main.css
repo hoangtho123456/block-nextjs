@@ -4092,60 +4092,6 @@ mg31,mg311?when use???
   opacity: 0;
 }
 
-.mg64 {
-  margin-bottom: -50px;
-}
-
-.mg64 .item {
-  position: relative;
-  box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
-  background-color: #fff;
-  border-radius: 10px;
-  height: 150px;
-  display: block;
-  text-align: center;
-}
-
-.mg64 .item .img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  z-index: 2;
-  width: 80px;
-  height: 80px;
-  top: 0;
-  background-image: -webkit-gradient(linear, left bottom, right top, from(#E1E648), to(#ED3C3C));
-  background-image: -webkit-linear-gradient(bottom left, #E1E648, #ED3C3C);
-  background-image: -o-linear-gradient(bottom left, #E1E648, #ED3C3C);
-  background-image: linear-gradient(to top right, #E1E648, #ED3C3C);
-  line-height: 80px;
-  text-align: center;
-  font-size: 40px;
-  color: #fff;
-  border-radius: 100%;
-}
-
-.mg64 .item .title {
-  font-size: 18px;
-  /*font-family: "Dosis", sans-serif;*/
-  font-weight: 700;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  left: 0;
-  right: 0;
-  margin-top: 10px;
-}
-
 .formcontact {
   position: relative;
   background: url(/images/dots.png) no-repeat bottom right;

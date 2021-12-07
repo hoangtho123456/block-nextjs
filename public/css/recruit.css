@@ -1583,7 +1583,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #footer-pc {
   color: #fff;
-  background-color: #666;
+  background-color: rgb(43, 37, 37);
   font-size: 13px;
   padding: 60px 0 30px;
   position: relative;

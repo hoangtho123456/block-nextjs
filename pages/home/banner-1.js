@@ -1,5 +1,5 @@
 import BannerOne from '../../components/Blocks/HomeBannerOne/'
-export default function() {
+export default function Home() {
   return (
     <BannerOne />
   );

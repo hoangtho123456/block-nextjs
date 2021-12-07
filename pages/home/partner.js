@@ -1,5 +1,5 @@
 import Partner from '../../components/Blocks/HomePartner'
-export default function({ deviceType }) {
+export default function Home({ deviceType }) {
   return (<Partner deviceType={deviceType}/>);
 }
 

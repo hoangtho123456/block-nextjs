@@ -1,5 +1,5 @@
 import Service from '../../components/Blocks/HomeService/'
-export default function () {
+export default function Home() {
   return (
     <Service/>
   );
