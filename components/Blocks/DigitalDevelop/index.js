@@ -28,13 +28,11 @@ const DigitalDevelop = ({
     <div className={styles["box1"]+" "+classSpacing}>
       <div className="container">
         <div className={`${styles.darkblue1}`}>
-          <h2>Các dự án Ecommerce Website của MangoAds</h2>
+          <h2>Neque porro quisquam est qui dolorem ipsum</h2>
         </div>
         <p className={styles.subtitle1}>
-          Các sản phẩm website và app thương mại điện tử của MangoAds 
-          được xây dựng và phát triển trên nền tảng Magento 
-          với nhiều ưu điểm giúp các doanh nghiệp 
-          tối ưu quy trình bán hàng.</p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam metus orci, mattis id vestibulum faucibus, vehicula eu ex. Nullam dignissim pretium leo ac ultrices. Fusce pellentesque quis purus ut dictum. Maecenas eu nisl congue, tincidunt nunc ac, rhoncus ipsum. Mauris a enim tincidunt, euismod purus eu, commodo mi..
+        </p>
         <Carousel
           responsive={responsive}
           autoPlay={false}

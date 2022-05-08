@@ -12,12 +12,11 @@ const AboutVision = ({
           <div className={`dl-table cols-2 ${styles["cols-2"]}`}>
             <article className={styles.divtext}>
               <h1 className={styles.title}>
-                Vì sao bạn nên lựa chọn MangoAds?
+                Where can I get some?
               </h1>
 
-              <p>Được thành lập từ năm 2013, đến nay MangoAds đã trở thành đối tác cung cấp giải pháp công nghệ tiên tiến cho nhiều đối tác.<br /><br/>
-                Các sản phẩm nổi bật mà chúng tôi phát triển bao gồm: Website, Mobile App, SEO, Google Ads và Facebook Advertising. Với phương châm nỗ lực hết mình để hoàn thiện sản phẩm, chúng tôi luôn cố gắng mang đến cho khách hàng những sản phẩm với trải nghiệm tốt nhất.<br /><br />
-                Trong suốt hơn 8 năm hoạt động, MangoAds đã nhận được sự tin tưởng và cộng tác của nhiều khách hàng: Vinamilk, Vietnam Airlines, TOA, Yamaha, MB Bank,… Hơn 83 khách hàng đang trải nghiệm và sử dụng sản phẩm của doanh nghiệp chúng tôi. Và chúng tôi tin rằng con số đó sẽ còn tiếp tục tăng trưởng trong những năm tiếp theo.</p>
+              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+              <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
             </article>
             <div>
               <Image 

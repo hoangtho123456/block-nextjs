@@ -27,9 +27,8 @@ const Contact = ({
                 </div>
               )}
               <section>
-                <h3>MangoAds Co., Ltd</h3>
+                <h3>Test Co., Ltd</h3>
               </section>
-              <p>Tầng 8, Block A tòa nhà Charmington, 181 Cao Thắng, Phường 12, Quận 10, HCMC.</p>
               <div className={`rowlabel label-50 label-line ${styles.rowlabel}`}>
                 <a className="item" href="tel:+842866805450">
                   <span className={styles.title+' title'}>
@@ -37,19 +36,12 @@ const Contact = ({
                   <span>02866805450</span>
                 </a>
 
-                <a className="item" href="mailto:info@mangoads.vn">
-                  <span className={styles.title+' title'}>
-                    <i className={styles.icon1+" icon-t53"}/>
-                  </span>
-                  <span>info@mangoads.vn</span>
-                </a>
-
                 <a className="item" 
-                  href="https://www.facebook.com/MangoAds" 
+                  href="#" 
                   target="_blank">
                   <span className={styles.title+' title'}>
                     <i className="icon-t9"/></span>
-                  <span>MangoAds</span>
+                  <span>Test</span>
                 </a>
               </div>
             </div>
@@ -62,13 +54,12 @@ const Contact = ({
                       <i className="icon-t18"/></div>
                     <div>
                       <section className={form.title1}>
-                        Liên hệ chúng tôi 
+                        Contact
                       </section>
                     </div>
                   </div>
                   {layout==="pageContact" && (
-                    <p>Liên hệ MangoAds để được tư vấn giải pháp 
-                      phù hợp nhất cho doanh nghiệp của bạn.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam metus orci, mattis id vestibulum faucibus, vehicula eu ex. Nullam dignissim pretium leo ac ultrices.</p>
                   )}
 
                   <form>

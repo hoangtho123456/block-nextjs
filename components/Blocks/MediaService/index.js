@@ -69,37 +69,36 @@ const MediaService = ({
         <div className="container">
           <div className={`row grid-space-120 ${styles["row-1"]}`}>
             <div className="col-sm-7">
-              <h2>Các dịch vụ Social Media Marketing của MangoAds</h2>
+              <h2>Social Media Marketing</h2>
               <div>
-                <p>Kể từ năm 2013, MangoAds đã cung cấp dịch vụ marketing trên Facebook một cách chuyên nghiệp. Chúng tôi thực hiện tư vấn 1-1 để hiểu rõ nhu cầu và mong muốn của khách hàng. Chúng tôi giúp cho các thương hiệu gắn kết với khách hàng và mang lại kết quả quả kinh doanh hiện hữu cho doanh nghiệp.&nbsp;
-                </p>
+                <p>Aliquam id ante varius, tempor ipsum consectetur, ultricies ligula. Vestibulum vehicula diam sit amet est egestas, in ultricies turpis lobortis. Maecenas ac ante ipsum. In convallis tristique est a efficitur.</p>
               </div>
             </div>
             <div className="col-sm-5">
               <div className={`dl-table ${styles["dl-tb"]}`}>
                 <div className={`icon ${styles.icon}`}>
                   <i className="icon-t22" /></div>
-                <div className={styles["text-sp"]}>Thân thiện với người dùng</div>
+                <div className={styles["text-sp"]}>Phasellus blandit mi ut massa pulvinar</div>
               </div>
               <div className={`dl-table ${styles["dl-tb"]}`}>
                 <div className={`icon ${styles.icon}`}>
                   <i className="icon-t3" /></div>
-                <div className={styles["text-sp"]}>Nội dung phong phú</div>
+                <div className={styles["text-sp"]}>Phasellus massa pulvinar</div>
               </div>
               <div className={`dl-table ${styles["dl-tb"]}`}>
                 <div className={`icon ${styles.icon}`}>
                   <i className="icon-t59" /></div>
-                <div className={styles["text-sp"]}>Tiết kiệm chi phí</div>
+                <div className={styles["text-sp"]}>Phasellus blandit mi ut</div>
               </div>
               <div className={`dl-table ${styles["dl-tb"]}`}>
                 <div className={`icon ${styles.icon}`}>
                   <i className="icon-t6" /></div>
-                <div className={styles["text-sp"]}>Hiệu quả tối ưu</div>
+                <div className={styles["text-sp"]}>Class aptent taciti sociosq</div>
               </div>
               <div className={`dl-table ${styles["dl-tb"]}`}>
                 <div className={`icon ${styles.icon}`}>
                   <i className="icon-t14" /></div>
-                <div className={styles["text-sp"]}>Báo cáo hiệu quả thường xuyên</div>
+                <div className={styles["text-sp"]}>Torquent per conubia nostra, per inceptos himenaeos.</div>
               </div>
             </div>
           </div>

@@ -12,7 +12,7 @@ const UxBanner = ({
           <div className={`page-desc ${styles["page-desc"]}`}>
             <h1>UX/UI DESIGN</h1>
             <div className={`desc ${styles.desc}`}>
-              Dịch vụ thiết kế UX / UI cho website/app tại MangoAds
+              Aliquam suscipit ante et massa vulputate vestibulum.
             </div>
           </div>
           <div className={`${styles.largeimg}`}>

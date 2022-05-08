@@ -23,7 +23,8 @@ const EnterpriseIndex = ({
           <h2>Vấn đề index của website</h2>
         </div>
         <p className={styles.subtitle1}>
-        Con số khá bất ngờ đó là một nửa lượng truy cập hàng ngày vào website bạn là từ robots (chủ yếu là Google robot) việc kiểm soát lượng truy cập và đảm bảo robots di chuyển thông suốt trên toàn bộ website, giúp cho chúng lấy content trên web để gửi về server của Google một cách hiệu quả nhất.</p>
+          Vivamus vitae venenatis nulla, sit amet venenatis tellus. Nulla sit amet justo vitae quam congue fermentum. Etiam ultrices pharetra semper. Mauris nec bibendum diam. Maecenas non leo ornare, vulputate nunc vel, molestie tortor. Curabitur elementum lectus finibus, cursus ligula vestibulum, dignissim justo. Pellentesque nulla eros, ultrices eget lacus sit amet, ornare semper neque. Ut at dapibus ex, id iaculis nibh. 
+        </p>
         <Carousel 
           responsive={responsive} 
           autoPlay={false}
@@ -39,7 +40,7 @@ const EnterpriseIndex = ({
               />
             </div>
             <p className={styles.card1_text1}>
-              Tất nhiên dữ liệu truy cập này sẽ không theo dõi được bằng Google Analytics nên tại MangoAds chúng tôi đã dùng hệ thống phân tích log server bằng Elasticsearch để phân tích lượng dữ liệu truy cập lớn từ Google bot. Qua đó nó giúp phát hiện ra những URL lỗi, URL tải bị chậm,… những link được crawl nhưng không được Google index. Sau cùng chúng tôi tìm ra nguyên nhân để đưa ra giải pháp cải thiện khả năng crawl và index của Google bot đối với những website có lượng nội dung lớn.
+              Nullam non ante eu lacus aliquet elementum ut ac odio. Phasellus convallis ante in maximus sagittis. Curabitur sit amet neque rhoncus sem blandit accumsan. Integer ut erat ultrices nibh imperdiet dapibus id ut velit. Maecenas malesuada, ligula vel tristique molestie, mauris orci cursus magna, sed auctor justo ante quis nibh. Aenean tincidunt lorem vel felis congue semper. Sed neque ex, condimentum in ipsum in, venenatis efficitur lectus. Aliquam aliquet rutrum nisi, eu venenatis eros tempus et. Donec a porta nisi. Proin sed odio quis lorem tristique bibendum. Praesent leo risus, pretium a sollicitudin condimentum, mattis ac dui. Fusce dolor nisi, auctor ut consequat eget, porta sed mi.
             </p>
           </div>
         </Carousel>

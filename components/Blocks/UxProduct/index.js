@@ -19,17 +19,11 @@ const UxProduct = ({
     <div className={styles["box1"]+" "+classSpacing}>
       <div className="container">
         <div className={`${styles.darkblue1}`}>
-          <h2>Sản phẩm website của MangoAds</h2>
+          <h2>Product WEBSITE</h2>
         </div>
         <p className={styles.subtitle1}>
-          Website của Ngân hàng Thương mại Cổ phần Quân đội 
-          được xây dựng với mục đích tối ưu hoá công cụ tìm kiếm 
-          và trải nghiệm người dùng. 
-          Dự án được phát triển nhằm tạo ra một cổng 
-          thông tin liên lạc giữa người dùng 
-          và ngân hàng MB Bank.
-          Website được tối ưu với các công nghệ tiên tiến 
-          như AMP và PWA. Thời gian tải trang dưới 1 giây.</p>
+          Curabitur sit amet neque rhoncus sem blandit accumsan. Integer ut erat ultrices nibh imperdiet dapibus id ut velit. Maecenas malesuada, ligula vel tristique molestie, mauris orci cursus magna, sed auctor justo ante quis nibh. Aenean tincidunt lorem vel felis congue semper. 
+        </p>
         <Carousel 
           responsive={responsive} 
           autoPlay={false}

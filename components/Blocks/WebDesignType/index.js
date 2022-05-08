@@ -35,10 +35,9 @@ const WebDesignType = ({
       <div className={`${styles["mg06"]}`}>
         <div className="container">
           <section className={`section-header ${styles["header"]}`}>
-            <h2>Các loại website MangoAds phát triển</h2>
+            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit MB.</h2>
             <div className={`desc ${styles.desc}`}>
-              MangoAds phát triển đa dạng các loại website 
-              cho hầu hết mọi lĩnh vực kinh doanh trên thị trường
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam metus orci, mattis id vestibulum faucibus, vehicula eu ex. Nullam dignissim pretium leo ac ultrices. Fusce pellentesque quis purus ut dictum. Maecenas eu nisl congue, tincidunt nunc ac, rhoncus ipsum. Mauris a enim tincidunt, euismod purus eu, commodo mi. Fusce et ligula eros. Etiam lectus felis, mollis in ante ac, feugiat mattis augue. Mauris vitae fermentum est. Donec sit amet ex ut purus interdum commodo.
             </div>
           </section>
           {deviceType == "desktop" ? (
@@ -50,15 +49,10 @@ const WebDesignType = ({
               <div className={styles.item_inner}>
                 <div className={styles.item_meta} />
                 <a className={styles.item_title} href="#">
-                  <h3>Web giới thiệu dịch vụ</h3>
+                  <h3>Nullam dignissim pretium leo ac ultrices.</h3>
                 </a>
                 <div className="text-justify">
-                  Chúng tôi đã từng xây dựng hàng trăm website 
-                  cho nhiều doanh nghiệp trên nhiều CMS 
-                  hay framework phổ biến như WordPress, 
-                  Laravel, Drupal, Spring boot,… 
-                  Bạn hãy đưa ra yêu cầu, chúng tôi sẽ đảm bảo 
-                  đáp ứng những tiêu chuẩn cao nhất.
+                  Lorem ipsum honcus ipsum. Mauris a enim tincidunt, euismod purus eu, commodo mi. Fusce et ligula eros. Etiam lectus felis, mollis in ante ac, feugiat mattis augue. Mauris vitae fermentum est. Donec sit amet ex ut purus interdum commodo.
                 </div>
               </div>
             </div>
@@ -66,29 +60,9 @@ const WebDesignType = ({
               <div className={styles.item_inner}>
                 <div className={styles.item_meta} />
                 <a className={styles.item_title} href="#">
-                  <h3>Web bán sản phẩm</h3>
-                </a>
+                  <h3>Mauris vitae fermentum est. Donec sit amet ex ut purus interdum commodo.</h3></a>
                 <div className="text-justify">
-                  Hệ thống web bán hàng với những business rule phức tạp, 
-                  kết hợp các chương trình khuyến mãi, hay điều chỉnh 
-                  giá thường xuyên, chúng tôi có kinh nghiệm 
-                  thực hiện website EC trên các nền tảng như Magento, 
-                  Woocommerce, Laravel, Shopware,…
-                </div>
-              </div>
-            </div>
-            <div className={styles.item}>
-              <div className={styles.item_inner}>
-                <div className={styles.item_meta} />
-                <a className={styles.item_title} href="#">
-                  <h3>Các web đặc thù khác</h3></a>
-                <div className="text-justify">
-                  Tuỳ vào yêu cầu của doanh nghiệp, chúng tôi có thể 
-                  phát triển website – web app – mobile app theo 
-                  đặc thù ngành của bạn ở nhiều 
-                  ngôn ngữ lập trình khác nhau. 
-                  Với những yêu cầu riêng biệt, chúng tôi vẫn đảm bảo 
-                  mang đến sản phẩm chất lượng nhất.
+                  Etiam lectus felis, mollis in ante ac, feugiat mattis augue. Mauris vitae fermentum est. Donec sit amet ex ut purus interdum commodo.
                 </div>
               </div>
             </div>
@@ -99,14 +73,10 @@ const WebDesignType = ({
                 <div className={styles.item_inner}>
                   <div className={styles.item_meta} />
                   <a className={styles.item_title} href="#">
-                    <h3>Web giới thiệu dịch vụ</h3></a>
+                    <h3>Nullam dignissim pretium leo ac ultrices.</h3>
+                  </a>
                   <div className="text-justify">
-                    Chúng tôi đã từng xây dựng hàng trăm website 
-                    cho nhiều doanh nghiệp trên nhiều CMS 
-                    hay framework phổ biến như WordPress, 
-                    Laravel, Drupal, Spring boot,… 
-                    Bạn hãy đưa ra yêu cầu, chúng tôi sẽ đảm bảo 
-                    đáp ứng những tiêu chuẩn cao nhất.
+                    Lorem ipsum honcus ipsum. Mauris a enim tincidunt, euismod purus eu, commodo mi. Fusce et ligula eros. Etiam lectus felis, mollis in ante ac, feugiat mattis augue. Mauris vitae fermentum est. Donec sit amet ex ut purus interdum commodo.
                   </div>
                 </div>
               </div>
@@ -114,38 +84,15 @@ const WebDesignType = ({
                 <div className={styles.item_inner}>
                   <div className={styles.item_meta} />
                   <a className={styles.item_title} href="#">
-                    <h3>Web bán sản phẩm</h3>
-                  </a>
+                    <h3>Mauris vitae fermentum est. Donec sit amet ex ut purus interdum commodo.</h3></a>
                   <div className="text-justify">
-                    Chúng tôi đã từng xây dựng hàng trăm website 
-                    cho nhiều doanh nghiệp trên nhiều CMS 
-                    hay framework phổ biến như WordPress, 
-                    Laravel, Drupal, Spring boot,… 
-                    Bạn hãy đưa ra yêu cầu, chúng tôi sẽ đảm bảo 
-                    đáp ứng những tiêu chuẩn cao nhất.
-                  </div>
-                </div>
-              </div>
-              <div className={styles.item}>
-                <div className={styles.item_inner}>
-                  <div className={styles.item_meta} />
-                  <a className={styles.item_title} href="#">
-                    <h3>Các web đặc thù khác</h3>
-                  </a>
-                  <div className="text-justify">
-                    Chúng tôi đã từng xây dựng hàng trăm website 
-                    cho nhiều doanh nghiệp trên nhiều CMS 
-                    hay framework phổ biến như WordPress, 
-                    Laravel, Drupal, Spring boot,… 
-                    Bạn hãy đưa ra yêu cầu, chúng tôi sẽ đảm bảo 
-                    đáp ứng những tiêu chuẩn cao nhất.
+                    Etiam lectus felis, mollis in ante ac, feugiat mattis augue. Mauris vitae fermentum est. Donec sit amet ex ut purus interdum commodo.
                   </div>
                 </div>
               </div>
             </div>
           )}
         </div>
-        {/* <div className={`${styles["imgbg"]} ${styles["bg-1"]}`} /> */}
       </div>
     </div>
   );

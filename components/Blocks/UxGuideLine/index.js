@@ -17,14 +17,12 @@ const UxGuideline = ({
                       <i className="icon-t36"/>
                     </div>
                     <div className={styles["box-title"]}>
-                      <h3>Atomic design</h3>
+                      <h3>Test design</h3>
                     </div>
                   </div>
                   <div>
-                    <p>Là thiết kế theo từng phần tử, chúng tôi xem xét 
-                      từng thành phần nhỏ nhất trên website để tạo ra 
-                      những thiết kế có tính thống nhất trên toàn bộ 
-                      các sản phẩm của doanh nghiệp.
+                    <p>
+                      Est risus bibendum libero, congue convallis elit lectus quis sem. Ut vitae vulputate libero. Aliquam suscipit ante et massa vulputate vestibulum.
                     </p>
                   </div>
                 </div>
@@ -40,11 +38,7 @@ const UxGuideline = ({
                       <h3>Wireframe</h3></div>
                   </div>
                   <div>
-                    <p>Quy trình vẽ tay lên vẽ máy, lên màu gửi duyệt 
-                      và thay đổi trước khi code. Hãy tham khảo 
-                      một số workflow của chúng tôi trên sketch 
-                      cũng như quy trình và phương pháp cộng tác 
-                      với khách hàng khi duyệt mẫu.</p>
+                    <p>In posuere purus vehicula sed. Ut in ultrices nulla. Pellentesque commodo, leo id pretium auctor, est risus bibendum libero, congue convallis elit lectus quis sem. Ut vitae vulputate libero. Aliquam suscipit ante et massa vulputate vestibulum.</p>
                   </div>
                 </div>
               </div>
@@ -59,10 +53,9 @@ const UxGuideline = ({
                       <h3>Web layout</h3></div>
                   </div>
                   <div>
-                    <p>Làm sao để có được giao diện phù hợp với thói quen 
-                      và sở thích lướt web của các đối tượng mục tiêu? 
-                      MangoAds sẽ đưa ra các thiết kế web layout phù hợp 
-                      với từng ngành nghề, lĩnh vực của khách hàng.</p>
+                    <p>
+                      Phasellus blandit mi ut massa pulvinar, a fermentum ex aliquet. In gravida lacus id lacus iaculis fringilla. Duis at eros sed mi posuere eleifend. Mauris malesuada lacinia leo, in posuere purus vehicula sed. Ut in ultrices nulla. Pellentesque commodo, leo id pretium auctor, est risus bibendum libero, congue convallis elit lectus quis sem. Ut vitae vulputate libero. Aliquam suscipit ante et massa vulputate vestibulum.
+                    </p>
                   </div>
                 </div>
               </div>

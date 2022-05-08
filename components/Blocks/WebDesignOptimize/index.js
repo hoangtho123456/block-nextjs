@@ -22,18 +22,13 @@ const WebDesignOptimize = ({
                 />
               </div>
               <div>
-                <p>Làm sao để website của bạn có thể có sức chịu đựng tốt 
-                  với lượng truy cập cao từ mọi nơi trên thế giới, 
-                  tối ưu tốc độ tải, làm website nhẹ hơn, 
-                  call it request hay tối ưu hạ tầng,… 
-                  là những phương pháp được Google  đề cập nhiều 
-                  trong tài liệu hướng dẫn lập trình web.</p>
+                <p>Curabitur sit amet neque rat ultrices nibh imperdiet dapibus id ut velit. Maecenas malesuada, ligula vel tristique molestie, mauris orci cursus magna, sed auctor justo ante quis nibh. Aenean tincidunt lorem vel felis congue semper. </p>
               </div>
             </div>
           </div>
           <article className={`col-sm-7 ${styles["col-2"]}`}>
             <div className={styles.title}>
-              <h2>Tối ưu tốc độ tải</h2>
+              <h2>Optimize page speed</h2>
             </div>
             <div className={styles["item"]}>
               <div className={styles["info"]}>
@@ -43,10 +38,7 @@ const WebDesignOptimize = ({
                 </div>
               </div>
               <div>
-                <p>Là chuẩn code web riêng cho bản mobile 
-                  được Google support để index, 
-                  với first load từ Google Search 
-                  nhanh và nhẹ nhàng hơn.</p>
+                <p>Sed auctor justo ante quis nibh. Aenean tincidunt lorem vel felis congue semper. </p>
               </div>
             </div>
             <div className={styles["item"]}>
@@ -55,23 +47,18 @@ const WebDesignOptimize = ({
                 <div className={styles.title}><h3>PWA</h3></div>
               </div>
               <div>
-                <p>PWA là giúp cung cấp những tính năng bổ sung 
-                  dựa trên các thiết bị hỗ trợ, 
-                  cung cấp khả năng ngoại tuyến, 
-                  đẩy thông báo và cải thiện tốc độ.</p>
+                <p>PWA Curabitur sit amet neque rhoncus sem blandit accumsan mauris orci cursus magna, sed auctor justo ante quis nibh. Aenean tincidunt lorem vel felis congue semper.</p>
               </div>
             </div>
             <div className={styles["item"]}>
               <div className={styles["info"]}>
                 <i className="icon-t20" />
                 <div className={styles.title}>
-                  <h3>Marketing team hỗ trợ</h3>
+                  <h3>Marketing team</h3>
                 </div>
               </div>
               <div>
-                <p>Marketing team tại MangoAds giúp nghiên cứu, 
-                  phân tích các số liệu, dựa trên kinh nghiệm thực tiễn 
-                  để đúc rút ra UI-UX phù hợp cho website.</p>
+                <p>Curabitur sit amet neque rhoncus sem blandit accumsan. Integer ut erat ultrices nibh imperdiet dapibus id ut velit. Maecenas malesuada, ligula vel tristique molestie, mauris orci cursus magna, sed auctor justo ante quis nibh. Aenean tincidunt lorem vel felis congue semper. </p>
               </div>
             </div>
           </article>

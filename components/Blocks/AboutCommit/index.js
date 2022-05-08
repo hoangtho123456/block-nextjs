@@ -35,32 +35,32 @@ const AboutCommit = ({
     {
       icon: "icon-t20",
       title: "Con người chuẩn mực",
-      text: "Chúng tôi luôn coi trọng và tập trung phát triển con người chuẩn mực, xem thường những mục đích lợi nhuận không chính danh.",
+      text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
     {
       icon: "icon-t42",
       title: "Hoàn thiện sản phẩm",
-      text: "Đội ngũ những chiến binh MangoAds nỗ lực hết mình để hoàn thiện sản phẩm cho khách hàng dù khó khăn hay lợi ích có bị ảnh hưởng.",
+      text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     },
     {
       icon: "icon-t45",
       title: "Môi trường làm việc",
-      text: "Kiến tạo môi trường làm việc thuận lợi nơi mà các kỹ sư có thể hăng say cưỡi lên những đoạn code làm chủ chúng để tạo ra những sản phẩm tuyệt vời cho thị trường",
+      text: "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     },
     {
       icon: "icon-t28",
       title: "Tối ưu hiệu suất",
-      text: "Toàn thể nhân viên luôn cảm thấy niềm vui khi cập nhật kiến thức và nghiện tối ưu sản phẩm nhằm đạt hiệu suất tối đa.",
+      text: "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     },
     {
       icon: "icon-t21",
       title: "Chia sẻ tri thức",
-      text: "Góp phần chia sẻ cho người dân Việt Nam những kiến thức ngành thông tin số và giúp xây dựng cộng đồng nhân lực tri thức cho thời đại dịch vụ số.",
+      text: "Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     },
     {
       icon: "icon-t8",
       title: "Sản phẩm dịch vụ số",
-      text: "Tất cả sản phẩm của MangoAds sẽ nằm trên thị trường dịch vụ số, chúng tôi cam đoan không phát triển bất cứ sản phẩm gì ngoài thị trường mục tiêu này.",
+      text: "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     },
   ];
   return (
@@ -69,9 +69,7 @@ const AboutCommit = ({
         <section className={`section-header ${styles["header"]}`}>
           <h2>Cam kết của chúng tôi</h2>
           <div className={'desc2 '+styles["desc2"]}>
-            Tại MangoAds chúng tôi luôn có một niềm tin và hoài bão 
-            được đóng góp cho sự phát triển của ngành dịch vụ số 
-            của đất nước và thế giới
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
           </div>
         </section>
 

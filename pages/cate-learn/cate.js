@@ -2,64 +2,78 @@ import Head from "next/head";
 import Link from 'next/link'
 import Image from "next/image";
 
-import styles from '../../styles/MangoLearn.module.css';
+import styles from '../../styles/TestLearn.module.css';
 import Navbar from "../../components/Learn/Navbar";
-export default function MangoAdsLearn({children}) {
+export default function TestLearn({children}) {
   var posts = [{
     url:'/post/post-id',
-    img:'https://mangoads.vn/learn/wp-content/uploads/2021/02/Sang-tao-Content-Marketing-de-xay-dung-chien-luoc-nhan-thuc-thuong-hieu-680x510.jpg',
-    title:'Sáng tạo Content Marketing để xây dựng chiến lược nhận thức thương hiệu',
+    img:'/images/post-thumb.jpg',
+    title:'Test title loremp ipsump',
     cate: 'Categories',
     date:'October 25, 2021',
-    author:'Hạnh Trần',
+    author:'Business Tester',
   },{
     url:'/post/post-id',
-    img:'https://mangoads.vn/learn/wp-content/uploads/2021/10/Cach-toi-uu-trai-nghiem-quang-cao-voi-khach-hang-Mu-bieu-ngu-01-680x510-1.jpg',
-    title:'Cách tối ưu trải nghiệm quảng cáo với khách hàng Mù biểu ngữ',
-    cate: 'Website development',
+    img:'/images/post-thumb.jpg',
+    title:'Test title loremp ipsump',
+    cate: 'Categories',
+    date:'October 25, 2021',
+    author:'Business Tester',
+  },{
+    url:'/post/post-id',
+    img:'/images/post-thumb.jpg',
+    title:'Test title loremp ipsump',
+    cate: 'Categories',
+    date:'October 25, 2021',
+    author:'Business Tester',
+  },{
+    url:'/post/post-id',
+    img:'/images/post-thumb.jpg',
+    title:'Test title loremp ipsump',
+    cate: 'Categories',
+    date:'October 25, 2021',
+    author:'Business Tester',
+  },{
+    url:'/post/post-id',
+    img:'/images/post-thumb.jpg',
+    title:'Test title loremp ipsump',
+    cate: 'Categories',
     date:'October 25, 2021',
     author:'Đoàn Tịnh',
   },{
     url:'/post/post-id',
-    img:'https://mangoads.vn/learn/wp-content/uploads/2021/10/166-680x510-1.png',
-    title:'30 ý tưởng tạo social marketing content cho thương hiệu',
-    cate: 'Content marketing',
-    date:'October 25, 2021',
-    author:'Hạnh Trần',
-  },{
-    url:'/post/post-id',
-    img:'https://mangoads.vn/learn/wp-content/uploads/2021/10/Artboard-1-copy-680x510.png',
+    img:'/images/post-thumb.jpg',
     title:'Bí quyết khai phá kho dữ liệu thương mại điện tử năm 2021',
     cate: 'Digital analytics',
     date:'October 25, 2021',
-    author:'Hạnh Trần',
+    author:'Business Tester',
   },{
     url:'/post/post-id',
-    img:'https://mangoads.vn/learn/wp-content/uploads/2021/10/165-680x510-1.png',
-    title:'Sáng tạo Content Marketing để xây dựng chiến lược nhận thức thương hiệu',
-    cate: 'Categories',
-    date:'October 25, 2021',
-    author:'Hạnh Trần',
-  },{
-    url:'/post/post-id',
-    img:'https://mangoads.vn/learn/wp-content/uploads/2021/02/Sang-tao-Content-Marketing-de-xay-dung-chien-luoc-nhan-thuc-thuong-hieu-680x510.jpg',
-    title:'Cách sử dụng Trình quản lý doanh nghiệp Facebook',
-    cate: 'Automation và công cụ',
-    date:'October 25, 2021',
-    author:'Hạnh Trần',
-  },{
-    url:'/post/post-id',
-    img:'https://mangoads.vn/learn/wp-content/uploads/2021/10/163-680x510-1.png',
-    title:'Chứng nhận của Google Ads là gì và tầm quan trọng của nó',
+    img:'/images/post-thumb.jpg',
+    title:'Test title loremp ipsump',
     cate: 'Categories',
     date:'October 25, 2021',
     author:'Đoàn Tịnh',
+  },{
+    url:'/post/post-id',
+    img:'/images/post-thumb.jpg',
+    title:'Cách sử dụng Trình quản lý doanh nghiệp Facebook',
+    cate: 'Automation và công cụ',
+    date:'October 25, 2021',
+    author:'Business Tester',
+  },{
+    url:'/post/post-id',
+    img:'/images/post-thumb.jpg',
+    title:'Chứng nhận của Google Ads là gì và tầm quan trọng của nó',
+    cate: 'Categories',
+    date:'October 25, 2021',
+    author:'DoTin',
   }];
   
   let cates = [
     {
       active: false,
-      url:'/mango-learn',
+      url:'/#',
       title:'Tất cả',
     },{
       active: true,
@@ -67,7 +81,7 @@ export default function MangoAdsLearn({children}) {
       title:'Automation và công cụ',
     },{
       active: false,
-      url:'/mango-learn',
+      url:'/#',
       title:'Brand',
     },{
       active: false,
@@ -75,7 +89,7 @@ export default function MangoAdsLearn({children}) {
       title:'Content marketing',
     },{
       active: false,
-      url:'/mango-learn',
+      url:'/#',
       title:'Digital advertising',
     },{
       active: false,
@@ -83,7 +97,7 @@ export default function MangoAdsLearn({children}) {
       title:'Digital analytics',
     },{
       active: false,
-      url:'/mango-learn',
+      url:'/#',
       title:'Ecommerce',
     },{
       active: false,
@@ -91,15 +105,15 @@ export default function MangoAdsLearn({children}) {
       title:'Market research',
     },{
       active: false,
-      url:'/mango-learn',
+      url:'/#',
       title:'SEO',
     },{
       active: false,
-      url:'/mango-learn',
+      url:'/#',
       title:'Soft skill',
     },{
       active: false,
-      url:'/mango-learn',
+      url:'/#',
       title:'Website development',
     }];
   return (
@@ -108,19 +122,19 @@ export default function MangoAdsLearn({children}) {
         <section className={`section ${styles['background-lowlight']}
           section--tight ${styles['blog__home-header']} 
           ${styles['blog__header--blog']}`} 
-          style={{backgroundImage: "url('https://mangoads.vn/learn/wp-content/themes/wp-mango-news/assets/images/home-banner.jpg')"}}>
+          style={{backgroundImage: "url('/images/test-banner.jpg')"}}>
           <div className={styles['container-fluid']}>
             <div className={styles.divtext}>
               <h1 className={`${styles['section-heading__title1']}`}>
-                Khám phá kho tàng kiến thức</h1>
+                Knowledge</h1>
               <p className={`${styles['section-heading__subhead']} 
                 heading--3 blog__subhead--blog`}>
-                Trung tâm kiến thức MangoAds sẽ mang đến cho bạn những kiến thức hữu ích, có thể ứng dụng vào thực tế công việc.
+                Fusce pellentesque quis purus ut dictum. Maecenas eu nisl congue, tincidunt nunc ac, rhoncus ipsum. Mauris a enim tincidunt, euismod purus eu, commodo mi. Fusce et ligula eros. Etiam lectus felis, mollis in ante ac, feugiat mattis augue. Mauris vitae fermentum est. Donec sit amet ex ut purus interdum commodo.
               </p>
             </div>
 
             <div id="mc_embed_signup">
-              <form action="https://mangoads.us4.list-manage.com/subscribe/post?u=a8ae5b7db973fd1eee9f267b3&amp;id=c69c95d6a4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate="novalidate">
+              <form action="" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate="novalidate">
                 <div className="row grid-space-10" id="mc_embed_signup_scroll">
                   <div className="col-xs-7 col-md-8 mc-field-group">
                     <input type="email" defaultValue="" name="EMAIL" className="required email input" id="mce-EMAIL" placeholder="Email Address" aria-required="true"/>
@@ -224,7 +238,7 @@ export default function MangoAdsLearn({children}) {
             <div className="col-md-4 blog__sidebar">
 							<div id="secondary" className="secondary">		
 					      <div id="widget-area" className="widget-area" role="complementary">
-				          <form className={styles['searchform']} id="searchform" method="get" action="https://mangoads.vn/learn/">
+				          <form className={styles['searchform']} id="searchform" method="get" action="">
                     <input type="text" 
                       className={`${styles['input']}`} name="s" placeholder="Tìm bài viết" defaultValue=""/>
                     <button type="submit" className={styles['btn']}>
@@ -247,8 +261,6 @@ export default function MangoAdsLearn({children}) {
           </div>
         </div>
       </div>
-
-      <script type="text/javascript" src="https://mangoads.vn/learn/wp-content/themes/wp-mango-news/assets/js/bootstrap.min.js?ver=5.5.1" id="bootstrap-js"></script>
     </>
   );
 }

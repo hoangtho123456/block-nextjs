@@ -13,8 +13,7 @@ const TeamIntro = ({
               <img src="/images/img-svg/img-15.svg" alt="img" />
             </div>
             <p style={{marginBottom:0}}>
-              Chúng tôi là đội ngũ kết nối liên kết mọi vận hành 
-              và xây dựng sản phẩm của tập thể MangoAds
+              Posuere purus vehicula sed. Ut in ultrices nulla. Pellentesque commodo, leo id pretium auctor, est risus bibendum libero, congue convallis elit lectus quis sem. Ut vitae vulputate libero. Aliquam suscipit ante et massa vulputate vestibulum.
             </p>
           </div>
         </div>

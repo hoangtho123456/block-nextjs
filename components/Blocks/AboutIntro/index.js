@@ -12,8 +12,8 @@ const AboutIntro = ({
           <h2>Lời mở đầu</h2>
           <div className={styles["item"]}>
             <div className={`text-justify ${styles["inner"]}`}>
-              <p>MangoAds ra đời với sứ mệnh cung cấp cho thị trường các sản phẩm số chuẩn mực giúp cho con người và doanh nghiệp Việt Nam vươn tầm thế giới, đồng thời cũng là cầu nối để các doanh nghiệp trên thế giới tiếp cận thị trường Việt Nam một cách hiệu suất nhất.</p>
-              <p>Chúng tôi xuất phát điểm là những người lập trình viên biết marketing kết hợp cùng với những makerter cầu toàn rất am tường công nghệ, sự phối hợp ăn ý đó sẽ luôn giúp chúng tôi có cái nhìn thông suốt từ khi thai nghén sản phẩm cho tới lúc tung ra thị trường, đồng thời cũng giúp cho khách hàng có cái nhìn bao quát hơn về con đường chuyển đổi số của doanh nghiệp.</p>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             </div>
           </div>
         </div>

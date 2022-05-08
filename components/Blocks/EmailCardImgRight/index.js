@@ -24,9 +24,9 @@ const EmailCardImgRight = ({
               <div className={`dl-table ${styles["dl-tb"]}`}>
                 <div>
                   <section className={`text-justify ${styles["sec1"]}`}>
-                    <h3>Chiến lược</h3>
+                    <h3>Strategy</h3>
                     <div>
-                      <p>MangoAds vận dụng mô hình “4W1H” (What-Who-When-Why-How) để tiến hành lên chiến lược Email Marketing. Chúng tôi sẽ tự hỏi nội dung nên gửi là gì, gửi cho từng tập khách hàng nào, khi nào nên gửi email, lý do gửi email này là gì, có cần thiết hay không và gửi như thế nào để khiến khách hàng tự chuyển đổi. Bằng cách trả lời từng câu hỏi, chúng tôi xác định được các yếu tố làm nên một chiến lược hoàn hảo.</p>
+                      <p>Proin id mauris euismod, pulvinar neque ut, convallis mi. Quisque ut faucibus arcu. Fusce eget diam sollicitudin, blandit velit nec, maximus enim. Nullam ornare tortor vitae risus consectetur, et volutpat ante tristique. Curabitur justo felis, faucibus quis maximus ut, bibendum quis mauris. In nisl purus, rutrum venenatis facilisis ut, venenatis ut dolor. </p>
                     </div>
                   </section>
                 </div>

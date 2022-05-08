@@ -9,7 +9,7 @@ const PayClickWhy = ({
     <div className={`${styles.mg28} ${classSpacing}`}>
       <div className="container">
         <h2 className={styles.mg28_title}>
-          Vì sao nên lựa chọn dịch vụ PPC của MangoAds?
+          Cras ac nunc sem. In aliquam mauris vel risus pharetra
         </h2>
         <div className="row">
           <div className="col-md-5 col-lg-4">
@@ -26,7 +26,7 @@ const PayClickWhy = ({
           </div>
           <div className="col-md-7 col-lg-8">
             <div className="b">
-              Các đặc điểm nổi bật tạo ra giá trị của chúng tôi
+              Cras ac nunc sem. In aliquam mauris vel risus pharetra
             </div>
             <div className="row">
               <div className="col-xs-6 col-sm-6 col-md-6">
@@ -35,7 +35,7 @@ const PayClickWhy = ({
                     <i className="icon-t2" />
                   </div>
                   <div className={styles.text}>
-                    Tối ưu hiệu quả cho tới conversion
+                    Mauris nec bibendum diam. Maecenas non leo ornare
                   </div>
                 </div>
               </div>
@@ -44,7 +44,7 @@ const PayClickWhy = ({
                   <div className={`icon ${styles["icon"]}`}>
                     <i className="icon-t21" />
                   </div>
-                  <div className={styles.text}>Dùng số để ra phương án</div>
+                  <div className={styles.text}>Mauris nec bibendum diam.</div>
                 </div>
               </div>
               <div className="col-xs-6 col-sm-6 col-md-6">
@@ -52,7 +52,10 @@ const PayClickWhy = ({
                   <div className={`icon ${styles["icon"]}`}>
                     <i className="icon-t32" />
                   </div>
-                  <div className={styles.text}>Tư duy của dự án tổng thể</div>
+                  <div className={styles.text}>
+                    Quisque ut faucibus arcu. Fusce eget diam sollicitudin, 
+                    blandit velit nec, maximus enim. Nullam ornare tortor vitae risus consectetur, et volutpat ante tristique
+                  </div>
                 </div>
               </div>
               <div className="col-xs-6 col-sm-6 col-md-6">
@@ -61,7 +64,7 @@ const PayClickWhy = ({
                     <i className="icon-t49" />
                   </div>
                   <div className={styles.text}>
-                    Kiểm soát và không lạm dụng tự động hoá
+                    Nullam ornare tortor vitae risus consectetur, et volutpat ante tristique
                   </div>
                 </div>
               </div>
@@ -70,15 +73,7 @@ const PayClickWhy = ({
                   <div className={`icon ${styles["icon"]}`}>
                     <i className="icon-t26" />
                   </div>
-                  <div className={styles.text}>Con người chuẩn mực</div>
-                </div>
-              </div>
-              <div className="col-xs-6 col-sm-6 col-md-6">
-                <div className={`dl-table mb-20 ${styles["dl-tb"]}`}>
-                  <div className={`icon ${styles["icon"]}`}>
-                    <i className="icon-t38" />
-                  </div>
-                  <div className={styles.text}>Không ngừng đặt mục tiêu mới</div>
+                  <div className={styles.text}>Quisque ut et volutpat ante tristique</div>
                 </div>
               </div>
             </div>

@@ -110,7 +110,7 @@ export default function Home() {
                           </Link>
                         </li>
                         <li>
-                          <Link href="/mango-learn">
+                          <Link href="#">
                             <a>Lorem Ipsum Lorem Ipsum</a>
                           </Link>
                         </li>
@@ -148,16 +148,6 @@ export default function Home() {
         <div id="footer-mb" className="">
           <div className="container">
             <div className="widget widget-info">
-              <div>
-                <Link href="/">
-                  <a href="/" className="logo">
-                    <img
-                      src="https://mangoads.vn/vn/wp-content/themes/wp-th/assets/images/logo-f.svg"
-                      alt="Logo-MangoAds.png"
-                    />
-                  </a>
-                </Link>
-              </div>
               <h3 className="title1">Lorem Ipsum Lorem</h3>
               <p>
                 Lorem Ipsum Lorem Ipsum
@@ -259,7 +249,7 @@ export default function Home() {
                               </Link>
                             </li>
                             <li>
-                              <Link href="/mango-learn">
+                              <Link href="#">
                                 <a>Lorem Ipsum Lorem Ipsum</a>
                               </Link>
                             </li>

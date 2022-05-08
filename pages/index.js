@@ -13,7 +13,7 @@ export default function Home() {
       <About/>
       <Work/>
       <Number classSpacing="section-t-0"
-        title="Những con số ấn tượng"/>
+        title="Best count"/>
       <BannerOne classSpacing="section-t"/>
       <Service/>
       <Partner/>

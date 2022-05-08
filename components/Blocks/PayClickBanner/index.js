@@ -17,8 +17,8 @@ const PayClickBanner = ({
           />
         </p>
         <h1 className="page-title" />
-        <h1>Pay per Click</h1>
-        <div className="desc-sm">Dịch vụ quảng cáo trả phí tại MangoAds.</div>
+        <h1>Loremp Ipsump Tip Info</h1>
+        <div className="desc-sm">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</div>
       </div>
       <div className="imgbg middle">
         <img

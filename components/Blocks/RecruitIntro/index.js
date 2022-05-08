@@ -6,7 +6,7 @@ const RecruitIntro = ({
   classSpacing='section',
   children}) => {
   return (
-    <div className={`${classSpacing}`}>
+    <div className={`${classSpacing}`}>
       <div className="container">
         <div className={`dl-table row grid-space-60 ${styles['dl-tb']}`}>
           <div className="col-xs-12 col-md-12 col-lg-8">
@@ -23,21 +23,8 @@ const RecruitIntro = ({
           
           <div className="col-md-12 col-lg-4">
             <div className="text-justify">
-              <h2>MangoAds</h2>
-              <p>MangoAds là một môi trường làm việc thân thiện 
-                tạo điều kiện cho mỗi thành viên làm việc, cống hiến, 
-                cùng học hỏi, phát triển và tạo nên thật nhiều 
-                niềm vui trong suốt hành trình chinh phục 
-                những đỉnh cao mới. Đích đến cuối cùng là tạo ra 
-                những sản phẩm chuẩn mực với chất lượng tốt nhất 
-                để mang lại giá trị thực sự cho khách hàng. 
-                Để công việc đạt hiệu suất cao, điều quan trọng 
-                là phải có một đội ngũ thực thi tốt. 
-                Hiểu được tầm quan trọng của việc đào tạo, 
-                chúng tôi đặt Learning – Training vào trung tâm 
-                của doanh nghiệp, đảm bảo nó luôn vận hành 
-                như một động cơ để giúp doanh nghiệp 
-                không ngừng phát triển.</p>
+              <h2>Test Co</h2>
+              <p>Vivamus vitae venenatis nulla, sit amet venenatis tellus. Nulla sit amet justo vitae quam congue fermentum. Etiam ultrices pharetra semper. Mauris nec bibendum diam. Maecenas non leo ornare, vulputate nunc vel, molestie tortor. Curabitur elementum lectus finibus</p>
             </div>
           </div>
         </div>

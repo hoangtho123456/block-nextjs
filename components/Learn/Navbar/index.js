@@ -1,11 +1,9 @@
 import Link from 'next/link'
-// import Image from "next/image";
-// import styles from '../styles/MangoLearn.module.css';
 export default function Navbar({cates,children}) {
   var cates = cates || [
     {
       active: true,
-      url:'/mango-learn',
+      url:'/#',
       title:'Tất cả',
     },{
       active: false,
@@ -13,7 +11,7 @@ export default function Navbar({cates,children}) {
       title:'Automation và công cụ',
     },{
       active: false,
-      url:'/mango-learn',
+      url:'/#',
       title:'Brand',
     },{
       active: false,
@@ -21,7 +19,7 @@ export default function Navbar({cates,children}) {
       title:'Content marketing',
     },{
       active: false,
-      url:'/mango-learn',
+      url:'/#',
       title:'Digital advertising',
     },{
       active: false,
@@ -29,7 +27,7 @@ export default function Navbar({cates,children}) {
       title:'Digital analytics',
     },{
       active: false,
-      url:'/mango-learn',
+      url:'/#',
       title:'Ecommerce',
     },{
       active: false,
@@ -37,15 +35,15 @@ export default function Navbar({cates,children}) {
       title:'Market research',
     },{
       active: false,
-      url:'/mango-learn',
+      url:'/#',
       title:'SEO',
     },{
       active: false,
-      url:'/mango-learn',
+      url:'/#',
       title:'Soft skill',
     },{
       active: false,
-      url:'/mango-learn',
+      url:'/#',
       title:'Website development',
     }];
   return (
@@ -80,8 +78,6 @@ export default function Navbar({cates,children}) {
           </ul>
         </div>
       </nav>
-
-      <script type="text/javascript" src="https://mangoads.vn/learn/wp-content/themes/wp-mango-news/assets/js/bootstrap.min.js?ver=5.5.1" id="bootstrap-js"></script>
     </>
   );
 }

@@ -25,26 +25,8 @@ const RedesignCardImgRight = ({
                   <section className={`text-justify ${styles["sec1"]}`}>
                     <h2>UI-UX design</h2>
                     <div>
-                      <p>Ngoài các bước thực hiện như việc thiết kế 
-                        một website mới thì với web redesign 
-                        chúng ta cần thêm một bước đánh giá lại 
-                        giao diện website cũ và những điểm 
-                        mong muốn cải thiện hay những điểm 
-                        muốn duy trì trên website mới. 
-                        Sau khi cùng đội marketing của công ty bạn 
-                        đánh giá lại các số liệu truy cập 
-                        và thiết kế của website cũ, 
-                        những designer giàu kinh nghiệm của MangoAds 
-                        sẽ dựa vào brand guideline của doanh nghiệp bạn 
-                        để đưa ra những phương án thiết kế sáng tạo 
-                        hợp xu thế nhất đồng thời giúp cải thiện mục tiêu 
-                        tăng trải nghiệm mua sắm trên trang của bạn.</p>
+                      <p>Phasellus convallis ante in maximus sagittis. Curabitur sit amet neque rhoncus sem blandit accumsan. Integer ut erat ultrices nibh imperdiet dapibus id ut velit. Maecenas malesuada, ligula vel tristique molestie, mauris orci cursus magna, sed auctor justo ante quis nibh. Aenean tincidunt lorem vel felis congue semper</p>
                     </div>
-                    {/* <div className={styles.item_btn}>
-                      <Link href="#">
-                        <a className={'btn'} target="true">CÙNG QUẢN DỰ ÁN</a>
-                      </Link>
-                    </div> */}
                   </section>
                 </div>
               </div>

@@ -4,8 +4,7 @@ stages:
 
 docker-build:
   # Use the official docker image.
-  image: registry.gitlab.com/mangoads/swarm-deploy-dind:v1.0
-  stage: build
+  image: registry.gitlab.com/  stage: build
   only:
     - master
   variables:
@@ -22,7 +21,7 @@ docker-build:
 
 deploy:
   # Use the official docker image.
-  image: registry.gitlab.com/mangoads/swarm-deploy-dind:v1.0
+  image: registry.gitlab.com/
   stage: deploy
   only:
     - master

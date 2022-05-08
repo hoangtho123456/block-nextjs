@@ -23,29 +23,29 @@ const Contact = ({
                 />
               </div>
               <section>
-                <h3>MangoAds Co., Ltd</h3>
+                <h3>Test Co., Ltd</h3>
               </section>
-              <p>Tầng 8, Block A tòa nhà Charmington, 181 Cao Thắng, Phường 12, Quận 10, HCMC.</p>
+              <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
               <div className={`rowlabel label-50 label-line ${styles.rowlabel}`}>
-                <a className="item" href="tel:+842866805450">
+                <a className="item" href="tel:+84287734323423">
                   <span className={styles.title+' title'}>
                     <i className="icon-t52"/></span>
-                  <span>02866805450</span>
+                  <span>0287734323423</span>
                 </a>
 
-                <a className="item" href="mailto:info@mangoads.vn">
+                <a className="item" href="test@gmail.com">
                   <span className={styles.title+' title'}>
                     <i className={styles.icon1+" icon-t53"}/>
                   </span>
-                  <span>info@mangoads.vn</span>
+                  <span>test@gmail.com</span>
                 </a>
 
                 <a className="item" 
-                  href="https://www.facebook.com/MangoAds" 
+                  href="#" 
                   target="_blank">
                   <span className={styles.title+' title'}>
                     <i className="icon-t9"/></span>
-                  <span>MangoAds</span>
+                  <span>Test Co</span>
                 </a>
               </div>
             </div>
@@ -56,13 +56,11 @@ const Contact = ({
                   <div className={`dl-table ${form['box1']}`}>
                     <div className={`icon ${form.icon}`}>
                       <i className="icon-t18"/></div>
-                    <div>
                       <section className={form.title1}>
-                        Liên hệ chúng tôi 
+                        Contact us
                       </section>
-                    </div>
                   </div>
-                  <p>Liên hệ MangoAds để được tư vấn giải pháp phù hợp nhất cho doanh nghiệp của bạn.</p>
+                  <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
                   <form>
                     <div className={form['nf-form-content']}>
                       <div className={`${form['nf-field-container']}`}>
@@ -104,11 +102,8 @@ const Contact = ({
                             <select id="nf-field-29"
                               name="nf-field-29" 
                               className={`${form["ninja-forms-field"]}`}>
-                              <option value="seo">SEO</option>
-                              <option value="phat-trien-website">Phát triển website</option>
-                              <option value="ads-fb">Quảng cáo Facebook</option>
-                              <option value="ads-google">Quảng cáo Google</option>
-                              <option value="other">Dịch vụ khác</option>
+                              <option value="seo-op">SEO-OP</option>
+                              <option value="test-website">Test website</option>
                             </select>
                             <div htmlFor="nf-field-29"></div>
                           </div>
@@ -128,7 +123,7 @@ const Contact = ({
                       <div className="nf-field">
                         <div className={form['nf-field-element']}>
                           <input type="button" 
-                            defaultValue="Gửi liên hệ"/>
+                            defaultValue="Gửi"/>
                         </div>
                       </div>
                     </div>

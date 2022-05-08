@@ -10,9 +10,9 @@ const MarketingBanner = ({
         <div className="container">
           <div className={styles.mg02}>
             <div className={styles.title1}>
-              <h1>Dịch vụ <span className="cl1">content marketing</span></h1>
+              <h1>Test <span className="cl1"> marketing</span></h1>
             </div>
-            <div className={styles.text}>TẠI MANGOADS</div>
+            <div className={styles.text}>TEST CO</div>
           </div>
         </div>
         <img className="imgsb" src="/images/bg-svg/08-01.svg" alt="img" />

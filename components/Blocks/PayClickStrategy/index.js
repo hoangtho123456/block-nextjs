@@ -34,38 +34,37 @@ const PayClickStrategy = ({
   const arr = [
     {
       icon: "icon-t26",
-      title: "Tập khách hàng",
-      text: "Chúng tôi luôn suy nghĩ về việc xây dựng tập khách hàng core qua đó có thể target đúng đối tượng chạy ads nhất, “một khi khách đi tìm kiếm là lúc đó họ đang cần” – với suy nghĩ đó chúng tôi xây dựng tập khách hàng qua keyword planning.",
+      title: "Fusce eget diam sollicitudin",
+      text: "Quisque ut faucibus arcu. Fusce eget diam sollicitudin, blandit velit nec, maximus enim. Nullam ornare tortor vitae risus consectetur, et volutpat ante tristique",
     },
     {
       icon: "icon-t38",
-      title: "Hoàn thiện sản phẩm",
-      text: "Quá trình nuôi dưỡng lead (nurturing lead) sẽ thông qua các chiến dịch chăm sóc khách hàng trung thành. Từ những tập khách hàng core, kết hợp với các chiến dịch từ khoá, ta sẽ có cơ sở để tăng độ lớn tập khách hàng mà vẫn chất lượng.",
+      title: "Vivamus vitae venenatis nulla",
+      text: "Curabitur justo felis, faucibus quis maximus ut, bibendum quis mauris. In nisl purus, rutrum venenatis facilisis ut, venenatis ut dolor. Vivamus vitae venenatis nulla, sit amet venenatis tellus. Nulla sit amet justo vitae quam congue fermentum. Etiam ultrices pharetra semper",
     },
     {
       icon: "icon-t49",
-      title: "Công cụ remarketing",
-      text: "Remarketing cũng là một công cụ đắc lực cho quá trình xây dựng lòng tin với khách hàng thông qua việc dẫn dắt họ đến những nội dung phù hợp dựa trên dữ liệu thu thập từ phễu hành vi và điểm chạm trên hành trình của họ.",
+      title: "Tool remarketing",
+      text: "Vivamus vitae venenatis nulla, sit amet venenatis tellus. Nulla sit amet justo vitae quam congue fermentum. Etiam ultrices pharetra semper",
     },
     {
       icon: "icon-t28",
-      title: "Tối ưu remarketing",
-      text: "Tối ưu những campaign Remarketing để user không chỉ nhìn thấy lặp đi lặp lại những banner đã-thấy-ở-đâu-đó-rồi, mà từng banner quảng cáo sẽ được điều chỉnh cá nhân hoá phù hợp với nhu cầu hiện hữu của khách hàng thông qua dữ liệu của họ.",
+      title: "Optimize remarketing",
+      text: "Mauris nec bibendum diam. Maecenas non leo ornare, vulputate nunc vel, molestie tortor. Curabitur elementum lectus finibus, cursus ligula vestibulum, dignissim justo.",
     },
     {
       icon: "icon-t32",
-      title: "Tracking và phân tích",
-      text: "Để thực hiện một chiến dịch remarketing tốt, thì việc thiết lập tracking và phân tích dữ liệu trên website khách hàng là vô cùng quan trọng, ở MangoAds, Data Strategy luôn được đặt lên đầu tiên trước khi thực hiện một chiến dịch.",
+      title: "Tracking",
+      text: "Phasellus blandit mi ut massa pulvinar, a fermentum ex aliquet. In gravida lacus id lacus iaculis fringilla. Duis at eros sed mi posuere eleifend. Mauris malesuada lacinia leo, in posuere purus vehicula sed. Ut in ultrices nulla.",
     },
   ];
   return (
     <div className={styles.mg13+" "+classSpacing}>
       <div className="container">
         <section className={`section-header ${styles["header"]}`}>
-          <h2>Chiến dịch PPC cần gì?</h2>
+          <h2>Curabitur elementum lectus finibu?</h2>
           <div className={'desc2 '+styles["desc2"]}>
-            Đối với một chiến dịch PPC, chúng ta không cần nhiều impression 
-            – Chúng ta cần nhiều click mang lại conversion.
+            Nunc nisi diam, luctus id blandit ac, ultrices consectetur enim. Praesent elementum sem eget nunc ullamcorper, in consequat nibh porta.
           </div>
         </section>
 

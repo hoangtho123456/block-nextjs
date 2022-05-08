@@ -8,13 +8,12 @@ const EcomService = ({
   return (
     <div className={`${styles["mg46"]} ${classSpacing}`}>
       <div className="container">
-        <div className={`section-header ${styles["box1"]}`}>
-          <h2>Các dịch vụ Ecommerce development tại MangoAds</h2>
+        <section className={`section-header ${styles["box1"]}`}>
+          <h2>Neque porro quisquam est qui dolorem ipsum</h2>
           <div className={`desc2 ${styles["text1"]}`}>
-            Tùy chỉnh từng ngành nghề, mang lại cho bạn website/ app 
-            với UI-UX tốt nhất
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam metus orci, mattis id vestibulum faucibus, vehicula eu ex. Nullam dignissim pretium leo ac ultrices. Fusce pellentesque quis purus ut dictum. Maecenas eu nisl congue, tincidunt nunc ac, rhoncus ipsum. Mauris a enim tincidunt, euismod purus eu, commodo mi. Fusce et ligula eros.
           </div>
-        </div>
+        </section>
 
         <div className="row grid-space-80">
           <div className="col-sm-6 col-md-6">
@@ -26,12 +25,7 @@ const EcomService = ({
                 <h3>Web design & development</h3>
               </section>
               <p className="text-justify">
-                Sử dụng kinh nghiệm lâu năm trong việc thiết kế 
-                và phát triển website dành cho khách hàng, 
-                MangoAds tung ra các sản phẩm là 
-                hệ thống vận hành bán hàng toàn diện. 
-                Gói dịch vụ E-commerce bao gồm website full nội thất, 
-                hệ thống CRM, quản lý đơn hàng, cổng thanh toán…
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam metus orci, mattis id vestibulum faucibus, vehicula eu ex. Nullam dignissim pretium leo ac ultrices. Fusce pellentesque quis purus ut dictum. Maecenas eu nisl congue, tincidunt nunc ac, rhoncus ipsum. Mauris a enim tincidunt, euismod purus eu, commodo mi. Fusce et ligula eros.
               </p>
             </div>
           </div>
@@ -45,12 +39,7 @@ const EcomService = ({
                 <h3>Website maintenance & support</h3>
               </section>
               <p className="text-justify">
-                Dịch vụ của MangoAds không dừng lại 
-                ở việc bán sản phẩm, chúng sẵn sàng hỗ trợ 
-                bảo trì hệ thống xuyên suốt giúp các chủ doanh nghiệp 
-                an tâm kinh doanh một cách ổn định. 
-                Chúng tôi sẽ cố gắng support nhanh nhất 
-                để mang lại sự hài lòng tuyệt đối cho quý khách hàng.
+                Nullam non ante eu lacus aliquet elementum ut ac odio. Phasellus convallis ante in maximus sagittis. Curabitur sit amet neque rhoncus sem blandit accumsan. Integer ut erat ultrices nibh imperdiet dapibus id ut velit. Maecenas malesuada, ligula vel tristique molestie, mauris orci cursus magna, sed auctor justo ante quis nibh. Aenean tincidunt lorem vel felis congue semper. Sed neque ex, condimentum in ipsum in, venenatis efficitur lectus. 
               </p>
             </div>
           </div>
@@ -64,12 +53,7 @@ const EcomService = ({
                 <h3>eCommerce application development</h3>
               </section>
               <p className="text-justify">
-                Làm thương mại điện tử chỉ có website là không đủ. 
-                Xu hướng sử dụng mobile để giao dịch, 
-                mua sắm của con người ngày càng tăng, 
-                MangoAds sẵn sàng cung cấp các app E-commerce 
-                giao diện đẹp, dễ sử dụng, 
-                từ đó mang lại trải nghiệm tốt hơn cho người dùng.
+                Nullam non ante eu lacus aliquet elementum ut ac odio. Phasellus convallis ante in maximus sagittis. Curabitur sit amet neque rhoncus sem blandit accumsan. Integer ut erat ultrices nibh imperdiet dapibus id ut velit. Maecenas malesuada, ligula vel tristique molestie, mauris orci cursus magna, sed auctor justo ante quis nibh. Aenean tincidunt lorem vel felis congue semper. Sed neque ex, condimentum in ipsum in, venenatis efficitur lectus. 
               </p>
             </div>
           </div>
@@ -83,13 +67,7 @@ const EcomService = ({
                 <h3>Custom modules & plugins</h3>
               </section>
               <p className="text-justify">
-                Chúng tôi hỗ trợ nâng cao các tính năng 
-                của online store với việc phát triển bộ mô-đun 
-                và plugin phù hợp theo thông số dự án của bạn. 
-                Những tính năng này giúp website/ app 
-                của bạn vận hành tốt hơn, mang đến 
-                những trải nghiệm mượt mà 
-                và thông minh cho người dùng.
+                Proin id mauris euismod, pulvinar neque ut, convallis mi. Quisque ut faucibus arcu. Fusce eget diam sollicitudin, blandit velit nec, maximus enim. Nullam ornare tortor vitae risus consectetur, et volutpat ante tristique. Curabitur justo felis, faucibus quis maximus ut, bibendum quis mauris. In nisl purus, rutrum venenatis facilisis ut, venenatis ut dolor. 
               </p>
             </div>
           </div>
