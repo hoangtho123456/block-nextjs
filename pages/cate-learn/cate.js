@@ -39,7 +39,7 @@ export default function TestLearn({children}) {
     title:'Test title loremp ipsump',
     cate: 'Categories',
     date:'October 25, 2021',
-    author:'Đoàn Tịnh',
+    author:'Loran',
   },{
     url:'/post/post-id',
     img:'/images/post-thumb.jpg',
