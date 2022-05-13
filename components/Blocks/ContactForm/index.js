@@ -63,7 +63,7 @@ const Contact = ({
                           <div className={form['nf-field-element']}>
                             <input type="text" 
                               className={`${form["ninja-forms-field"]}`} 
-                              placeholder="Họ và tên"/>
+                              placeholder="your name"/>
                           </div>
                         </div>
                       </div>
@@ -86,7 +86,7 @@ const Contact = ({
                             <input type="tel" 
                               className={`${form["ninja-forms-field"]}`} 
                               name="phone" 
-                              placeholder="Số điện thoại" />
+                              placeholder="your phone" />
                           </div>
                         </div>
                       </div>
