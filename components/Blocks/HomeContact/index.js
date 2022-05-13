@@ -13,26 +13,11 @@ const Contact = ({
         <div className="container">
           <div className={`${styles.row} row grid-space-80`}>
             <div className="col-md-6">
-              <div className={styles['info1']}>
-                <Image 
-                  src="/images/items/hinh-cong-ty.jpeg"
-                  alt="Picture of the author"
-                  width={530}
-                  height={353}
-                  layout="responsive"
-                />
-              </div>
               <section>
                 <h3>Test Co., Ltd</h3>
               </section>
               <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
               <div className={`rowlabel label-50 label-line ${styles.rowlabel}`}>
-                <a className="item" href="tel:+84287734323423">
-                  <span className={styles.title+' title'}>
-                    <i className="icon-t52"/></span>
-                  <span>0287734323423</span>
-                </a>
-
                 <a className="item" href="test@gmail.com">
                   <span className={styles.title+' title'}>
                     <i className={styles.icon1+" icon-t53"}/>
