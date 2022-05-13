@@ -10,10 +10,10 @@ const CroBanner = ({
         <div className="container">
           <div className={styles.mg02}>
             <div className={styles.title1}>
-              <h1>Tối ưu tỷ lệ chuyển đổi</h1>
+              <h1>Test discord loriptim</h1>
             </div>
             <div className={styles.text}>
-              CHIẾN DỊCH QUẢNG CÁO
+              Test loremp inpsump discord loriptim
             </div>
           </div>
         </div>
