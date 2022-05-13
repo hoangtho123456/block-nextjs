@@ -11,16 +11,16 @@ const Banner = ({
         <div className={"container"}>  
           {layout==='pageContact'?(
             <section className={styles.divtext}>
-              <h1 className={styles["title"]}>Liên hệ</h1>
+              <h1 className={styles["title"]}>Contact 2</h1>
               <div className={"desc "+styles.desc}>
-                Kết nối với chúng tôi
+                Loremp Ipsump Tester
                 </div>
             </section>
           ):(
             <>
-              <h1 className={styles["title"]}>Liên hệ</h1>
+              <h1 className={styles["title"]}>Contact</h1>
               <div className={"desc "+styles.desc}>
-                Kết nối với chúng tôi
+                Loremp Ipsump Tester
               </div>
             </>
           )}
