@@ -34,32 +34,32 @@ const AboutCommit = ({
   const arr = [
     {
       icon: "icon-t20",
-      title: "Con người chuẩn mực",
+      title: "Lorem Ipsum 1",
       text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
     {
       icon: "icon-t42",
-      title: "Hoàn thiện sản phẩm",
+      title: "Lorem Ipsum 2",
       text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     },
     {
       icon: "icon-t45",
-      title: "Môi trường làm việc",
+      title: "Lorem Ipsum 3",
       text: "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     },
     {
       icon: "icon-t28",
-      title: "Tối ưu hiệu suất",
+      title: "Lorem Ipsum 4",
       text: "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     },
     {
       icon: "icon-t21",
-      title: "Chia sẻ tri thức",
+      title: "Lorem Ipsum 5",
       text: "Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     },
     {
       icon: "icon-t8",
-      title: "Sản phẩm dịch vụ số",
+      title: "Lorem Ipsum 6",
       text: "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     },
   ];
@@ -67,7 +67,7 @@ const AboutCommit = ({
     <div className={styles.mg13+" "+classSpacing}>
       <div className="container">
         <section className={`section-header ${styles["header"]}`}>
-          <h2>Cam kết của chúng tôi</h2>
+          <h2> Lorem Ipsum has been the industry's standard dummy</h2>
           <div className={'desc2 '+styles["desc2"]}>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
           </div>
