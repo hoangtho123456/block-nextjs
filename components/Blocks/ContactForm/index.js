@@ -30,12 +30,6 @@ const Contact = ({
                 <h3>Test Co., Ltd</h3>
               </section>
               <div className={`rowlabel label-50 label-line ${styles.rowlabel}`}>
-                <a className="item" href="tel:+842866805450">
-                  <span className={styles.title+' title'}>
-                    <i className="icon-t52"/></span>
-                  <span>02866805450</span>
-                </a>
-
                 <a className="item" 
                   href="#" 
                   target="_blank">
@@ -104,10 +98,6 @@ const Contact = ({
                               name="nf-field-29" 
                               className={`${form["ninja-forms-field"]}`}>
                               <option value="seo">SEO</option>
-                              <option value="phat-trien-website">
-                                Phát triển website</option>
-                              <option value="ads-fb">
-                                Quảng cáo Facebook</option>
                               <option value="ads-google">
                                 Quảng cáo Google</option>
                               <option value="other">Dịch vụ khác</option>
