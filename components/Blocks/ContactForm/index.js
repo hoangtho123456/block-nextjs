@@ -18,7 +18,7 @@ const Contact = ({
               {layout==="pageContact" && (
                 <div className={styles['info1']}>
                   <Image 
-                    src="/images/items/hinh-cong-ty.jpeg"
+                    src=""
                     alt="Picture of the author"
                     width={530}
                     height={353}
