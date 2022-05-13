@@ -4,11 +4,11 @@ export default function Navbar({cates,children}) {
     {
       active: true,
       url:'/#',
-      title:'Tất cả',
+      title:'ALL',
     },{
       active: false,
       url:'/cate-learn/cate',
-      title:'Automation và công cụ',
+      title:'Lorem-1',
     },{
       active: false,
       url:'/#',
@@ -28,15 +28,15 @@ export default function Navbar({cates,children}) {
     },{
       active: false,
       url:'/#',
-      title:'Ecommerce',
+      title:'Ecommerce 8',
     },{
       active: false,
       url:'/cate-learn/cate',
-      title:'Market research',
+      title:'Market ipsump',
     },{
       active: false,
       url:'/#',
-      title:'SEO',
+      title:'SEO tips',
     },{
       active: false,
       url:'/#',
@@ -44,7 +44,7 @@ export default function Navbar({cates,children}) {
     },{
       active: false,
       url:'/#',
-      title:'Website development',
+      title:'Website test 55',
     }];
   return (
     <>
