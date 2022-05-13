@@ -97,10 +97,10 @@ const Contact = ({
                             <select id="nf-field-29"
                               name="nf-field-29" 
                               className={`${form["ninja-forms-field"]}`}>
-                              <option value="seo">SEO</option>
+                              <option value="seo">Lorem 1</option>
                               <option value="ads-google">
-                                Quảng cáo Google</option>
-                              <option value="other">Dịch vụ khác</option>
+                                Lorem 2</option>
+                              <option value="other">other</option>
                             </select>
                             <div htmlFor="nf-field-29"></div>
                           </div>
@@ -112,7 +112,7 @@ const Contact = ({
                           <div className={form['nf-field-element']}>
                             <textarea 
                               className={`${form["ninja-forms-field"]}`} 
-                              placeholder="Để lại lời nhắn"/>
+                              placeholder="message"/>
                           </div>
                         </div>
                       </div>
@@ -120,7 +120,7 @@ const Contact = ({
                       <div className="nf-field">
                         <div className={form['nf-field-element']}>
                           <input type="button" 
-                            defaultValue="Gửi liên hệ"/>
+                            defaultValue="Send"/>
                         </div>
                       </div>
                     </div>
