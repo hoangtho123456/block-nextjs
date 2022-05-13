@@ -49,7 +49,7 @@ const AboutVision = ({
               <div className={styles["info"]}>
                 <i className="icon-t11"></i>
                 <div className={styles.title}>
-                  <h3>Vision</h3>
+                  <h3>discord loriptim</h3>
                 </div>
               </div>
               <div className="text-justify">
