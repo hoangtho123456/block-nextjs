@@ -28,13 +28,13 @@ const WebDesignOptimize = ({
           </div>
           <article className={`col-sm-7 ${styles["col-2"]}`}>
             <div className={styles.title}>
-              <h2>Optimize page speed</h2>
+              <h2>Curabitur sit amet neque rat ultrices</h2>
             </div>
             <div className={styles["item"]}>
               <div className={styles["info"]}>
                 <i className="icon-t23" />
                 <div className={styles.title}>
-                  <h3>AMP web development</h3>
+                  <h3>AMP</h3>
                 </div>
               </div>
               <div>
@@ -54,7 +54,7 @@ const WebDesignOptimize = ({
               <div className={styles["info"]}>
                 <i className="icon-t20" />
                 <div className={styles.title}>
-                  <h3>Marketing team</h3>
+                  <h3>Marketing</h3>
                 </div>
               </div>
               <div>

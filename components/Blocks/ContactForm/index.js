@@ -98,7 +98,7 @@ const Contact = ({
                               name="nf-field-29" 
                               className={`${form["ninja-forms-field"]}`}>
                               <option value="seo">Lorem 1</option>
-                              <option value="ads-google">
+                              <option value="lorem-ads">
                                 Lorem 2</option>
                               <option value="other">other</option>
                             </select>

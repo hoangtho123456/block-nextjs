@@ -1,7 +1,6 @@
 import React from 'react';
 
-import styles from '../../GeneralStyles/ClientBanner.module.css';
-const Banner = ({
+const BlockNull = ({
   classSpacing='',
   children}) => {
   return (
@@ -13,4 +12,4 @@ const Banner = ({
   );
 }
 
-export default Banner;
+export default BlockNull;

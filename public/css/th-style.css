@@ -63,7 +63,7 @@
 }
 
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
-  color: #FBAF21;
+  color: #21fb2f;
   text-decoration: none;
   outline: 0;
   background-color: #fff;
@@ -349,16 +349,16 @@
 }
 
 .pagination-wrapper .page-numbers.current {
-  color: #FBAF21;
+  color: #ff7b00;
 }
 
 .pagination-wrapper .page-numbers.next {
-  color: #FBAF21;
+  color: #ff7b00;
   float: right;
 }
 
 .pagination-wrapper .page-numbers.prev {
-  color: #FBAF21;
+  color: #ff7b00;
   float: left;
 }
 
@@ -406,7 +406,7 @@
 /*sidebar learn*/
 .widget-area .widget-title .icon {
   margin-right: 5px;
-  color: #FBAF21;
+  color: #21fb2f;
   font-weight: bold;
 }
 
@@ -431,7 +431,7 @@
 }
 
 .widget-area .widget .menu .description {
-  color: #FBAF21;
+  color: #21fb2f;
 }
 
 .widget-area .widget ul {
@@ -494,7 +494,7 @@
   height: 35px;
   padding: 0 25px;
   text-transform: uppercase;
-  background-color: #333;
+  background-color: #941919;
   color: #fff;
   cursor: pointer;
   -webkit-transition: all 0.2s ease-in-out;
@@ -502,7 +502,7 @@
 }
 
 .c-form1__btn1:hover {
-  background-color: #FBAF21;
+  background-color: green;
 }
 
 @media only screen and (max-width: 767px) {
@@ -520,6 +520,7 @@
   width: 100%;
   border: 1px solid #D2D2D2;
   height: 34px;
+  font-size: 14px;
   padding: 6px 12px;
   color: #555;
   border: 1px solid #ccc;
@@ -568,8 +569,8 @@
 }
 
 .c-box-form1 .box1 {
-  -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
-          box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 40px rgba(107, 72, 72, 0.3);
+          box-shadow: 0 0 40px rgba(107, 72, 72, 0.3);
   z-index: 2;
   background-color: #fff;
   border-radius: 10px;

@@ -9,75 +9,75 @@ export default function TestLearn({children}) {
     img:'/images/post-thumb.jpg',
     title:'Test title loremp ipsump',
     cate: 'Categories',
-    date:'October 25, 2021',
+    date:'October 2, 2022',
     author:'Business Tester',
   },{
     url:'/post/post-id',
     img:'/images/post-thumb.jpg',
     title:'Test title loremp ipsump',
     cate: 'Categories',
-    date:'October 25, 2021',
+    date:'October 2, 2022',
     author:'Business Tester',
   },{
     url:'/post/post-id',
     img:'/images/post-thumb.jpg',
     title:'Test title loremp ipsump',
     cate: 'Categories',
-    date:'October 25, 2021',
+    date:'October 2, 2022',
     author:'Business Tester',
   },{
     url:'/post/post-id',
     img:'/images/post-thumb.jpg',
     title:'Test title loremp ipsump',
     cate: 'Categories',
-    date:'October 25, 2021',
+    date:'October 2, 2022',
     author:'Business Tester',
   },{
     url:'/post/post-id',
     img:'/images/post-thumb.jpg',
     title:'Test title loremp ipsump',
     cate: 'Categories',
-    date:'October 25, 2021',
-    author:'Đoàn Tịnh',
+    date:'October 2, 2022',
+    author:'Test name',
   },{
     url:'/post/post-id',
     img:'/images/post-thumb.jpg',
     title:'Bí quyết khai phá kho dữ liệu thương mại điện tử năm 2021',
     cate: 'Digital analytics',
-    date:'October 25, 2021',
+    date:'October 2, 2022',
     author:'Business Tester',
   },{
     url:'/post/post-id',
     img:'/images/post-thumb.jpg',
     title:'Test title loremp ipsump',
     cate: 'Categories',
-    date:'October 25, 2021',
+    date:'October 2, 2022',
     author:'Đoàn Tịnh',
   },{
     url:'/post/post-id',
     img:'/images/post-thumb.jpg',
     title:'Cách sử dụng Trình quản lý doanh nghiệp Facebook',
     cate: 'Automation và công cụ',
-    date:'October 25, 2021',
+    date:'October 2, 2022',
     author:'Business Tester',
   },{
     url:'/post/post-id',
     img:'/images/post-thumb.jpg',
     title:'Chứng nhận của Google Ads là gì và tầm quan trọng của nó',
     cate: 'Categories',
-    date:'October 25, 2021',
+    date:'October 2, 2022',
     author:'DoTin',
   }];
 
-  const cates = [
+  let cates = [
     {
-      active: true,
+      active: false,
       url:'/#',
       title:'Tất cả',
     },{
-      active: false,
+      active: true,
       url:'/cate-learn/cate',
-      title:'Automation và công cụ',
+      title:'Test loremp ipsump',
     },{
       active: false,
       url:'/#',
@@ -89,31 +89,31 @@ export default function TestLearn({children}) {
     },{
       active: false,
       url:'/#',
-      title:'Digital advertising',
+      title:'Test-2',
     },{
       active: false,
       url:'/cate-learn/cate',
-      title:'Digital analytics',
+      title:'Test-3',
     },{
       active: false,
       url:'/#',
-      title:'Ecommerce',
+      title:'Test-4',
     },{
       active: false,
       url:'/cate-learn/cate',
-      title:'Market research',
+      title:'Test-5',
     },{
       active: false,
       url:'/#',
-      title:'SEO',
+      title:'SEO-2',
     },{
       active: false,
       url:'/#',
-      title:'Soft skill',
+      title:'Soft-skill-11',
     },{
       active: false,
       url:'/#',
-      title:'Website development',
+      title:'Website development 111',
     }];
   return (
     <>

@@ -11,11 +11,11 @@
   -webkit-transition: all ease 0.3s;
   transition: all ease 0.3s;
 }
-.rowlabel a:hover {color: #FBAF21;}
+.rowlabel a:hover {color: #ff4d00;}
 
 .title {
   font-size: 24px;
-  color: #FBAF21;
+  color: #ff4d00;
 }
 
 @media only screen and (max-width:991px) {

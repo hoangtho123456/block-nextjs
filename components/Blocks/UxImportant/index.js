@@ -3,7 +3,7 @@ import Carousel from "react-multi-carousel";
 
 import styles from '../../GeneralStyles/UxImportant.module.css';
 const UxImportant = ({
-  classSpacing='section-t',
+  classSpacing='',
   deviceType,
   children}) => {
   const responsive = {
@@ -33,8 +33,10 @@ const UxImportant = ({
       <div className={`${styles["mg06"]} ${styles["mg06-pt1"]}`}>
         <div className="container">
           <section className={`section-header ${styles["header"]}`}>
-            <div><h2>UI/UX quan trọng như thế nào?</h2></div>
-            <div className={`desc ${styles.desc}`}>Chúng ta có thể mất tới 80% khách hàng vào tay đối thủ nếu họ trải nghiệm không tốt trên website của bạn.</div>
+            <h2>Curabitur sit amet neque rhoncus sem blandit accumsan.</h2>
+            <div className={`desc ${styles.desc}`}>
+              Curabitur sit amet neque rhoncus sem blandit accumsan.
+            </div>
           </section>
           {deviceType == "desktop" ? (
           <Carousel 
@@ -45,41 +47,27 @@ const UxImportant = ({
               <div className={styles.item_inner}>
                 <div className={styles.item_meta} />
                 <a className={styles.item_title} href="#">
-                  <h3>Conversion tăng đến 400%</h3>
+                  <h3>Curabitur sit amet neque </h3>
                 </a>
                 <div className="text-justify">
-                  Nếu website trình bày rõ ràng UX tốt, bạn có thể 
-                  cải thiện 400% các chuyển đổi của người dùng trên trang, 
-                  thử tưởng tượng, chỉ thay đổi nhẹ nhàng trên app 
-                  bạn đã có thể tăng doanh số lên 4 lần so với bình thường, 
-                  con số khủng đúng không nào?</div>
+                Curabitur sit amet neque rhoncus sem blandit accumsan.Curabitur sit amet neque rhoncus sem blandit accumsan.Curabitur sit amet neque rhoncus sem blandit accumsan.Curabitur sit amet neque rhoncus sem blandit accumsan.</div>
               </div>
             </div>
             <div className={styles.item}>
               <div className={styles.item_inner}>
                 <div className={styles.item_meta} />
                 <a className={styles.item_title} href="#">
-                  <h3>Tỷ suất đầu tư ROI hiệu quả</h3>
+                  <h3>Cueque rhoncus sem blandit accumsan.</h3>
                 </a>
-                <div className="text-justify">ROI tốt nhất, bạn chỉ đầu tư một ít 
-                ngân sách cho tối ưu giao diện, nhưng hiệu quả 
-                về doanh số tăng rất cao, tối ưu trải nghiệm 
-                không phải là một kênh marketing nhưng 
-                lại là một phương pháp mang lại doanh số 
-                và tỷ suất đầu tư ROI rất hiệu quả.</div>
+                <div className="text-justify">Curabitur sit amet neque Integer ut erat ultrices nibh imperdiet dapibus id ut velit. Maecenas malesuada, ligula vel tristique molestie, mauris orci cursus magna, sed auctor justo ante quis nibh. Aenean tincidunt lorem vel felis congue semper.</div>
               </div>
             </div>
             <div className={styles.item}>
               <div className={styles.item_inner}>
                 <div className={styles.item_meta} />
                 <a className={styles.item_title} href="#">
-                  <h3>Tối ưu trải nghiệm khi dùng</h3></a>
-                <div className="text-justify">73% các công ty trên thế giới 
-                  tuyên bố rằng trải nghiệm người dùng là tối quan trọng. 
-                  Nó có thể nằm ở tất cả mọi điểm chạm online, offline, 
-                  các channel khác nhau. UI-UX của web, app,… 
-                  cũng là một trong những vị trí trọng yếu 
-                  trong hành trình này.</div>
+                  <h3>Tristique molestie, mauris orci</h3></a>
+                <div className="text-justify">Curabitur sit amet neque Integer ut erat ultrices nibh imperdiet dapibus id ut velit. Maecenas malesuada, ligula vel tristique molestie, mauris orci cursus magna, sed auctor justo ante quis nibh. Aenean tincidunt lorem vel felis congue semper.Curabitur sit amet neque Integer ut erat ultrices nibh imperdiet dapibus id ut velit. Maecenas malesuada, ligula vel tristique molestie, mauris orci cursus magna, sed auctor justo ante quis nibh. Aenean tincidunt lorem vel felis congue semper..</div>
               </div>
             </div>
           </Carousel>

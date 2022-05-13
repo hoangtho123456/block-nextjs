@@ -20,15 +20,6 @@ export default function Home() {
               <div className="col-sm-5 col-lg-4 col-md-5 efch-1 ef-img-t">
                 <div className="widget widget-info">
                   <h3 className="title1">Test Logo</h3>
-                  <p>
-                    Lorem Ipsum
-                    <br />
-                    Lorem Ipsum Lorem Ipsum
-                  </p>
-                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem</p>
-                  <p>
-                    Phone: <a href="tel:#">+0909888888</a>
-                  </p>
                   <ul className="blog-item-social ">
                     <li>
                       <Link href="#">
@@ -55,27 +46,17 @@ export default function Home() {
                       <h4 className="widget-title">Lorem Ipsum</h4>
                       <ul className="menu">
                         <li>
-                          <Link href="/About">
+                          <Link href="/">
                             <a>Lorem Ipsum Lorem</a>
                           </Link>
                         </li>
                         <li>
-                          <Link href="/Project-Management">
+                          <Link href="/">
                             <a>Lorem Ipsum Lorem Ipsum</a>
                           </Link>
                         </li>
                         <li>
-                          <Link href="/Media-Team">
-                            <a>Lorem Ipsum Lorem Ipsum</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/Product-team">
-                            <a>Lorem Ipsum</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/OpsAds-Team">
+                          <Link href="/">
                             <a>Lorem Ipsum Lorem Ipsum</a>
                           </Link>
                         </li>
@@ -88,10 +69,10 @@ export default function Home() {
                       <h4 className="widget-title">Lorem Ipsum</h4>
                       <ul className="menu">
                         <li><Link href="/"><a>Website development</a></Link></li>
-                        <li><Link href="/seo-Website"><a>Lorem Ipsum Lorem</a></Link></li>
-                        <li><Link href="/Seo-Website-Big"><a>Lorem Ipsum test iloroil</a></Link></li>
-                        <li><Link href="/Pay-Per-Click"><a>3p3p3p is lorem</a></Link></li>
-                        <li><Link href="/Conversion-Rate-Optimization"><a>Lorem Ipsum Lorem Ipsum</a></Link></li>
+                        <li><Link href="/"><a>Lorem Ipsum Lorem</a></Link></li>
+                        <li><Link href="/"><a>Lorem Ipsum test iloroil</a></Link></li>
+                        <li><Link href="/"><a>3p3p3p is lorem</a></Link></li>
+                        <li><Link href="/"><a>Lorem Ipsum Lorem Ipsum</a></Link></li>
                       </ul>
                     </div>
                   </div>
@@ -100,7 +81,7 @@ export default function Home() {
                       <h4 className="widget-title">Lorem Ipsum Lorem Ipsum</h4>
                       <ul className="menu">
                         <li>
-                          <Link href="/Recruitment">
+                          <Link href="/">
                             <a>Lorem Ipsum Ipsum</a>
                           </Link>
                         </li>
@@ -122,12 +103,12 @@ export default function Home() {
                       <h4 className="widget-title">CONTACT</h4>
                       <ul className="menu">
                         <li>
-                          <Link href="/Contact">
+                          <Link href="/">
                             <a>Support</a>
                           </Link>
                         </li>
                         <li>
-                          <Link href="/Contact">
+                          <Link href="/">
                             <a>Lorem Ipsum Service</a>
                           </Link>
                         </li>
@@ -149,15 +130,7 @@ export default function Home() {
           <div className="container">
             <div className="widget widget-info">
               <h3 className="title1">Lorem Ipsum Lorem</h3>
-              <p>
-                Lorem Ipsum Lorem Ipsum
-                <br />
-                Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-              </p>
-              <p>Email: test@gmail.com</p>
-              <p>
-                Phone: <a href="tel:#">+84 9999 8888</a>
-              </p>
+              
               <ul className="blog-item-social">
                 <li>
                   <Link href="#">
@@ -193,27 +166,17 @@ export default function Home() {
                           <h4 className="widget-title">Intro</h4>
                           <ul className="menu">
                             <li>
-                              <Link href="/About">
+                              <Link href="/">
                                 <a>Lorem Ipsum</a>
                               </Link>
                             </li>
                             <li>
-                              <Link href="/Project-Management">
+                              <Link href="/">
                                 <a>Project Lorem Ipsum</a>
                               </Link>
                             </li>
                             <li>
-                              <Link href="/Media-Team">
-                                <a>Lorem Ipsum</a>
-                              </Link>
-                            </li>
-                            <li>
-                              <Link href="/Product-team">
-                                <a>Product Lorem</a>
-                              </Link>
-                            </li>
-                            <li>
-                              <Link href="/OpsAds-Team">
+                              <Link href="/">
                                 <a>3T group</a>
                               </Link>
                             </li>
@@ -226,10 +189,10 @@ export default function Home() {
                           <h4 className="widget-title">Service</h4>
                           <ul className="menu">
                             <li><Link href="/"><a>web Lorem Ipsum</a></Link></li>
-                            <li><Link href="/Seo-Website"><a>Lorem Ipsum Lorem Ipsum</a></Link></li>
-                            <li><Link href="/Seo-Website-Big"><a>SEO Lorem Ipsum Lorem</a></Link></li>
-                            <li><Link href="/Pay-Per-Click"><a>Lorem Ipsum</a></Link></li>
-                            <li><Link href="/Conversion-Rate-Optimization"><a>Lorem Ipsum Lorem rate optimization</a></Link></li>
+                            <li><Link href="/"><a>Lorem Ipsum Lorem Ipsum</a></Link></li>
+                            <li><Link href="/"><a>SEO Lorem Ipsum Lorem</a></Link></li>
+                            <li><Link href="/"><a>Lorem Ipsum</a></Link></li>
+                            <li><Link href="/"><a>Lorem Ipsum Lorem rate optimization</a></Link></li>
                           </ul>
                         </div>
                       </div>

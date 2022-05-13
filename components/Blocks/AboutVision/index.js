@@ -32,7 +32,6 @@ const AboutVision = ({
             </div>
             <div className={styles["item"]}>
               <div className={styles["info"]}>
-                <i className="icon-t10"></i>
                 <div className={styles.title}>
                   <h3>Lorem ipsump FIRST</h3>
                 </div>
@@ -47,7 +46,6 @@ const AboutVision = ({
             </div>
             <div className={styles["item"]}>
               <div className={styles["info"]}>
-                <i className="icon-t11"></i>
                 <div className={styles.title}>
                   <h3>discord loriptim</h3>
                 </div>

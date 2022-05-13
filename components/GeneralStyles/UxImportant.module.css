@@ -7,7 +7,7 @@
   left: 0;
   right: 0;
   position: absolute;
-  background-image: url("/images/bg-svg/bg4.jpg");
+  background-color: #ccc;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

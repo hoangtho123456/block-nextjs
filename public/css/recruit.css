@@ -36,7 +36,7 @@
 
 @media (max-width: 767px) {
   .w-logo, .w-nav-item-h > .w-nav-anchor {
-    padding-left: 15px;
+    padding-left: 5px;
   }
 }
 
@@ -1109,7 +1109,7 @@ input[type="submit"],
 .w-iconbox.with_circle .w-iconbox-link:hover .w-iconbox-icon,
 .w-pricing-item.type_featured .w-pricing-item-title,
 .w-team-member-links .w-team-member-links-item:hover {
-  background-color: #f0a71d;
+  background-color: #f0521d;
 }
 
 .l-subsection.color_alternate,
@@ -1119,7 +1119,7 @@ input[type="submit"],
 .color_alternate .w-clients-itemgroup,
 .color_alternate .w-clients-nav,
 .color_alternate .w-tabs-item.active {
-  background-color: #FAE6CD;
+  background-color: #1dae1d;
 }
 
 .color_alternate .home-heading-line.type_secondary_bg,
@@ -1308,7 +1308,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media only screen and (min-width: 1024px) and (max-width: 1199px) {
   .l-header .l-subheader .w-nav-list-h li > a {
-    padding: 0 7px;
+    padding: 0 10px;
   }
 }
 

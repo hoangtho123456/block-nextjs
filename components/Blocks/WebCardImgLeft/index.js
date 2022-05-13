@@ -23,18 +23,9 @@ const WebCardImgLeft = ({
             <div className={`${styles.divtext}`}>
               <div className={`dl-table ${styles["dl-tb"]}`}>
                 <div>
-                  <h2>Trải nghiệm mua sắm và tối ưu CRO</h2>
+                  <h2>Duis at eros sed mi posuere eleifend</h2>
                   <p>
-                    Mục tiêu cuối cùng của mọi chiến dịch 
-                    là bán được sản phẩm và dịch vụ, 
-                    do đó việc xây dựng website tối ưu hành trình 
-                    người dùng và các điểm chạm 
-                    sao cho họ thuận tiện nhất để mua hàng 
-                    là mục tiêu của CRO. Trải nghiệm mua sắm online 
-                    sẽ được cải thiện từng ngày, 
-                    mỗi một sự tương tác giữa người dùng và website, 
-                    thương hiệu đều có khả năng khiến họ mua hàng 
-                    hay sử dụng dịch vụ.
+                  Mauris malesuada lacinia leo, in posuere purus vehicula sed. Ut in ultrices nulla. Pellentesque commodo, leo id pretium auctor, est risus bibendum libero, congue convallis elit lectus quis sem. Ut vitae vulputate libero. Aliquam suscipit ante et massa vulputate vestibulum.
                   </p>
                 </div>
               </div>

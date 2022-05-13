@@ -17,7 +17,7 @@ const RedesignList = ({
                       <i className="icon-t6"/>
                     </div>
                     <div className={styles["box-title"]}>
-                      <h3>Page speed website</h3>
+                      <h3>Page speed</h3>
                     </div>
                   </div>
                   <div>
@@ -66,7 +66,7 @@ const RedesignList = ({
                     <div className={`icon ${styles.item_icon}`}>
                       <i className="icon-t18" /></div>
                     <div className={styles["box-title"]}>
-                      <h3>maintenance tracking, analytic</h3>
+                      <h3>Loremp ipsimp</h3>
                     </div>
                   </div>
                   <div>

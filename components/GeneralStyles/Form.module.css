@@ -119,8 +119,8 @@
   height: 35px;
   padding: 0 25px;
   text-transform: uppercase;
-  background-color: #000;
-  border-color: #000;
+  background-color: #e43c12;
+  border-color: #e43c12;
   color: #fff;
   cursor: pointer;
   -webkit-appearance:default-button;
@@ -130,9 +130,9 @@
 }
 
 .nf-form-content input[type=button]:hover {
-  background-color: #FBAF21;
+  background-color: #19e412;
   color: #fff;
-  border-color: #FBAF21;
+  border-color: #19e412;
 }
 
 .title1 {

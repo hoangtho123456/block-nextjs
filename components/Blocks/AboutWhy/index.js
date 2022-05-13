@@ -20,7 +20,7 @@ const AboutVision = ({
             </article>
             <div>
               <Image 
-                src="/images/items/img-1.png"
+                src="/images/items/ux-2.jpg"
                 alt="Picture of the author"
                 width={540}
                 height={567}
