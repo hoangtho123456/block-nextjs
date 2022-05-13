@@ -9,7 +9,7 @@ const AboutIntro = ({
     <div className={`${classSpacing}`}>
       <div className="container">
         <div className={styles["mg08"]}>
-          <h2>Lời mở đầu</h2>
+          <h2>Lorem Ipsump Test Dev</h2>
           <div className={styles["item"]}>
             <div className={`text-justify ${styles["inner"]}`}>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
