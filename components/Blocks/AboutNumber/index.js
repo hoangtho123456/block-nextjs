@@ -22,24 +22,24 @@ const AboutNumber = ({
             <div className="col-xs-6 col-md-3">
               <div className={`${styles.item}`}>
                 <div className={`${styles.timer}`} data-form={9} 
-                  data-to={83} data-speed={1000}>83</div>
-                <p className={styles.title1}>Đối tác</p>
+                  data-to={65} data-speed={1000}>65</div>
+                <p className={styles.title1}>Test-1</p>
               </div>
             </div>
 
             <div className="col-xs-6 col-md-3">
               <div className={`${styles.item}`}>
                 <div className={`${styles.timer}`} data-form={9} 
-                  data-to={163} data-speed={1000}>163</div>
-                <p className={styles.title1}>Dự án</p>
+                  data-to={222} data-speed={1000}>222</div>
+                <p className={styles.title1}>Test-2</p>
               </div>
             </div>
 
             <div className="col-xs-6 col-md-3">
               <div className={`${styles.item}`}>
                 <div className={`${styles.timer}`} data-form={9} 
-                  data-to={245} data-speed={1000}>245</div>
-                <p className={styles.title1}>Chiến dịch quảng cáo</p>
+                  data-to={211} data-speed={1000}>211</div>
+                <p className={styles.title1}>Test-3</p>
               </div>
             </div>
           </div>
